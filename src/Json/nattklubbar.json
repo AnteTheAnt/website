@@ -1,0 +1,213 @@
+{
+
+	"nattklubbar": "platser",
+	"namn": [{
+		"id": "787",
+        "location": "Växjö",
+        "name": "Grace",
+        "description": "Grace Nightclub är uppdelad i tre dansgolv där det spelas house & klubbmusik, RnB & Hip-hop samt schlager & partymusik. Fredagar leg. 18+. Lördagar rek. 25+. Möjlighet att boka bord mellan 4-40 personer. köp biljett via grace webbplats.",
+        
+        "telephone": "073-917 34 19",
+        "mail": "grace@elite.se",
+        "address": "Kungsgatan 6, 352 33 Växjö",
+        "website": "http://www.gracenightclub.se/",
+		
+        
+        "mon_open": "close",
+		"mon_close":"close",
+		"tue_open": "close",
+		"tue_close": "close",
+		"wed_open": "close",
+		"wed_close": "close",
+		"thu_open": "close",
+		"thu_close": "close",
+		"fri_open": "23.00",
+		"fri_close": "03.00",
+		"sat_open": "23.00",
+		"sat_close": "03.00",
+		"sun_open": "-",
+		"sun_close": "-"
+		
+	},
+		
+	{
+		
+        "id": "791",
+        "location": "Ljungby",
+        "name": "Garvaren nöje",
+        "description": "I deras lokaler finns restaurangverksamhet, konferensrum, biograf, pub och nattklubb. Deras lokaler rummer upp till 1700 personer.",
+                            
+        "telephone": "0372-155 00",
+        "mail": "info@garvaren-noje.se",
+        "address": "Stationsgatan 2, 341 60 Ljungby",
+        "website": "http://www.garvaren-noje.se/default.asp",
+                            
+        "mon_open": "-",
+		"mon_close": "-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"
+                            
+    },
+	
+    {
+		
+        "id": "790",
+        "location": "Västervik",
+        "name": "Palladium",
+        "description": "Dans och nattklubb",
+                  
+        "telephone": "072-723 73 72",
+        "mail": "-",
+        "address": "Brunnsgatan 4, 59330 Västervik",
+        "website": "https://www.facebook.com/Palladiumnattklubb/",
+                            
+		"mon_open": "-",
+		"mon_close": "-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "22.00",
+		"sat_close": "03.00",
+		"sun_open": "-",
+		"sun_close": "-"
+                            
+    },
+		
+    {
+		
+        "id": "789",
+        "location": "Borgholm",
+        "name": "Sommarstrand",
+        "description": "Liveartister, events flera kvällar i veckan och dubbla dansgolv (partygolvet, klubbgolvet) fre-sön. Några av Sveriges bästa Djs gör kvällarna magiska",
+                            
+        "telephone": "0763-148018",
+        "mail": "info@strandborgholm.se",
+        "address": "Eskilsgatan 1, Ljungby",
+        "website": "https://www.sommarstrand.se/",
+                            
+        "mon_open": "-",
+		"mon_close": "-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-" 
+                            
+    },
+	
+	{
+		
+		"id": "788",
+        "location": "Kalmar",
+        "name": "Nöjespalatset Sandra",
+        "description": "Sydöstra Sveriges största dansgolv med eliten av dansband, teamevent & artister.",
+        
+        "telephone": "0480-27080",
+        "mail": " info@sandranoje.se",
+        "address": "Södra vägen 58, 39245 Kalmar",
+        "website": "http://sandranoje.se/",
+        
+        "mon_open": "-",
+		"mon_close": "-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"              
+		
+	},
+	
+	{
+		
+		"location": "Jönköping",
+        "id": "792",
+        "name": "Klubb Enkelt",
+		"description": "Klubb Enkelt Klubb Enkelt - bra fest, bra människor och bra house! /Med kärlek - Klubb Enkelt ",
+		
+		"lat": "57.784862",
+        "lng": "14.158100",
+        "website": "www.facebook.com/klubbenkelt/",
+        "address": "Tändsticksgränd 13 Jönköping",
+        "telephone": "070-650 80 48",
+        "mail": "klubb.enkelt@gmail.com",
+       
+	    "mon_open": "-1",
+		"mon_close":"-1",
+		"tue_open": "-1",
+		"tue_close": "-1",
+		"wed_open": "-1",
+		"wed_close": "-1",
+		"thu_open": "-1",
+		"thu_close": "-1",
+		"fri_open": "-1",
+		"fri_close": "-1",
+		"sat_open": "22.00",
+		"sat_close": "02.00",
+		"sun_open": "-1",
+		"sun_close": "-1"
+
+	},
+
+	{
+
+		"location": "Jönköping",
+        "id": "793",
+        "name": "Klubb & Co",
+		"description": "Denna klubb är ett nytt friskt tillskott i Jönköpings uteliv! Detta är ett ställe för dig som vill unna dig en kväll med dina vänner i en härlig atmosfär! Här kan du bl.a finna liveband, temakvällar och artistbokningar. Välkommen!",
+		
+		"lat": "57.783914",
+        "lng": "14.163638",
+        "website": "www.facebook.com/klubbenkelt/",
+        "address": "Järnvägsgatan 9 Jönköping",
+        "telephone": "-1",
+        "mail": "-1",
+        
+		"mon_open": "-1",
+		"mon_close":"-1",
+		"tue_open": "-1",
+		"tue_close": "-1",
+		"wed_open": "-1",
+		"wed_close": "-1",
+		"thu_open": "-1",
+		"thu_close": "-1",
+		"fri_open": "19.00",
+		"fri_close": "02.00",
+		"sat_open": "19.00",
+		"sat_close": "02.00",
+		"sun_open": "-1",
+		"sun_close": "-1"
+
+	}
+		
+	}
+	]
+}

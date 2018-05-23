@@ -1,0 +1,166 @@
+{
+
+	"evenemang": "music",
+	"namn": [{
+		"name": "HojRock",
+        "date": "14/6-16/6",
+		"description": "HojRock är en träff för hojåkare och hojklubbar från hela Nordeuropa. HojRock startade 1997 och har sedan dess vuxit till nordens största hojevenemang med 14000 besökare och 25000 åskådare. HojRock består av träffen med alla hojåkare, konserter med stora artister, mässan och en kortege som åker genom Västervik. Välkommen till Sveriges största mc-träff!",
+		"lat": "57.6387422",
+        "lng": "16.5885042",
+		"alcohol_licence": "Y",
+		"min_age": "18",
+		"parent_company": "Y"
+
+	},
+		{
+
+		"name": "Emmabodafestivalen",
+        "date": "24/7-28/7",
+        "description": "Den första Emmabodafestivalen varade i en dag med en artist bokad. Detta var 1988. Detta har utvecklats till en av Sveriges största festivaler som varar i fem dagar med över 50 artister bokade. Välkommen!",
+        "lat": "56.628219",
+        "lng": "15.557119",
+        "alcohol_licence": "Y",
+		"min_age": "18"
+
+	},
+    
+        {
+
+        "name": "Karlskrona Skärgårdsfest",
+        "date": "31/7-5/8",
+		"description": "Karlskrona Skärgårdsfest blandar stadens historia med den moderna stadspulsen och gör därmed att både stora och små får ta del av oändliga upplevelser. Denna festival lockar hundratusentals besökare. Välkommen!",
+		"lat": "56.161044",
+        "lng": "15.586811",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+
+
+	},
+
+
+		{
+
+		"name": "Öland Roots",
+        "date": "12/7-14/7",
+		"description": "Öland Roots är en förening som startades 2004 utifrån en frustration att det inte hände någonting för unga personer på Öland som hade med kultur att göra. Resultetet blev en festival med fokus på reggaemusik, kärlek, dans och omtanke till varandra. Festivalen vara i tre dagar med 5000 besökare varje dag. Detta blir festivalens 15e år. Välkommen!",
+		"lat": "56.570048",
+        "lng": "16.402855",
+		"alcohol_licence": "Y",
+		"min_age": "16",
+		"parent_company": "Y"
+
+
+		},
+
+
+	{
+
+		"name": "Borgholm Brinner",
+        "date": "27/7-28/7",
+		"description": "InFlames startar sin egna festival som kommer att hålla till på Borgholms Slottsruin på Öland. Detta kommer att vara en tvådagarsfestival där InFlames själva kommer att avsluta båda kvällarna med två unika framträdanden. Utöver detta kommer flera stora band uppträda, mat och dryck av hög kvalité kommer att finnas och en del andra överraskningar finns att finna. Välkommen!",
+		"lat": "56.867635",
+        "lng": "16.647139",
+		"alcohol_licence": "Y",
+		"min_age": "18",
+		"parent_company": "Y"
+
+
+	},
+
+
+		{
+
+		"name": "Visfestivalen i Västervik",
+        "date": "12/7-14/7",
+		"description": "Denna anrika festival startade 1966. Då var det en konsert, och en biljett kostade 5 kr. Det blev en succé och det utvecklades till det som det är idag, en tredagarsfestival. Över 1000 artister har spelat, och över 200000 besökare har kommit och myst tillsammans under dessa kvällar. Välkommen!",
+		"lat": "57.760321",
+        "lng": "16.641591",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+
+
+		},
+		
+		{
+		
+		"name": "Latitud 57",
+        "date": "6/7-7/7",
+		"description": "Denna festival startade 2009 och är en familjefestival för musikälskare som håller till i Oskarshamns hamn, med fin miljö nära till vattnet. Många stora artister och DJ:s har spelat på denna festival, och därmed lockat många besökare till denna festival där värme, glädje och musik står i fokus. Detta år kommer stora artister som Takida, Rebecca & Fiona och Moneybrother att spela. Välkommen!",
+		"lat": "57.2670499",
+        "lng": "16.4506564",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+			
+		},
+		
+		{
+			
+		"name": "Plura",
+        "date": "1/7",
+		"time": "19.30",		
+		"location": "Kackelstugan",
+		"description": "Frontmannen i det svenska rockbandet Eldkvarn gästar Kackelstugan denna kväll. Det är självklart Plura det handlar om, och detta kommer bli en kväll som vi sent kommer att glömma!",
+		"lat": "56.7950153",
+        "lng": "16.6192886",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+			
+		},
+		
+		{
+			
+		"name": "KAAH",
+        "date": "4/7",
+		"time": "19.30",
+		"location": "Kackelstugan",
+		"description": "Denna kväll kommer artisten KAAH att spela. Han har blivit omnämnd som Sveriges funk- och soulkung, och har till våren precis släppt sin nya singel 'Visst har vi väl försökt nu?'. Detta kommer bli en riktigt mysig kväll!",
+		"lat": "56.7950153",
+        "lng": "16.6192886",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+			
+		},
+		
+		{
+			
+		"name": "Thomas Di Leva",
+        "date": "8/7",
+		"location": "Kackelstugan",
+		"time": "19.30",
+		"description": "Kvällens artist är den stora Thomas Di Leva som startade sin karriär 1980 med bandet Pillisnorks. Han har medverkat i både Melodifestivalen och programmet 'Så mycket bättre'. Detta får ni inte missa!",
+		"lat": "56.7950153",
+        "lng": "16.6192886",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+			
+		},
+		
+		{
+			
+		"name": "Kaliffa",
+        "date": "30/6",
+		"location": "Sigges Loge",
+		"description": "Kvällens artist är den föredetta Hoffmaestro-medlemmen Kaliffa som under de senaste åren gjort stort intryck på den svenska hiphop- och reggaescenen. Han har medverkat i Melodifestivalen 2017 med hiten 'Helt seriöst'. Välkommen!",
+		"lat": "57.2847635",
+        "lng": "13.4227186",
+		"alcohol_licence": "Y",
+		"min_age": "-1"
+			
+		},
+		
+		{
+			
+		"name": "Wiktoria",
+        "date": "13/7",
+		"location": "Böda Sands Camping",
+		"time": "20",
+		"description": "Wiktoria fick sitt genombrott under Melodifestivalen 2016, där hon kom på fjärde plats. Denna starka röst är något som inte får missas!",
+		"lat": "57.2741066",
+        "lng": "17.0485114",
+		"alcohol_licence": "Y",
+		"min_age": "-1"	
+			
+		}
+
+	]
+}

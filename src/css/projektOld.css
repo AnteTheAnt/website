@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+body {background-image:url(../pics/applause1.jpg);
+}
+
+/* Startsidan med navigering och dropdown (för alla sidor) */
+.header-title{
+    font-family: 'Source Code Pro', monospace;
+	color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#header-title-rest {
+    background-image:url(../pics/glass2.jpg);
+}
+#header-title-musik {
+    background-image:url(../pics/music.jpg);
+}
+
+#header-title-shop {
+     background-image:url(../pics/shop.jpg);
+}
+
+#header-title-club {
+    background-image:url(../pics/club.jpg);
+}
+
+#header-title-culture {
+    background-image:url(../pics/culture.jpg);}
+
+#logotyp {padding-top:5%;
+padding-bottom:5%;}
+
+#navstartsida {padding-top: 2%; text-align: center;}
+
+
+#navstartsida ul {list-style: none;
+                  font-family: 'Quicksand', sans-serif;}
+                  
+#navstartsida ul li {position: relative;}
+           
+#navstartsida a {color: #FFF8F0; text-decoration: none; text-align: center;}
+
+#navstartsida a:link, nav a:visited {color: #FFF8F0;}
+
+#navstartsida a:hover, nav a:active {color: #FFF8F0;}
+/*#navstartsida i:hover, nav i:active {color: #000000; font-size:50px} */
+
+.nav-box {
+    display:inline-block;
+    width:12%;
+	margin:auto;
+    text-align: center;
+}
+.nav-box-icon {
+    padding: 5px;
+    color: #d6d6d6;
+    font-size:30px;}
+
+.nav-box-text {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+/*#navRest {display: block;}
+
+#navShop {display: block;}
+
+#navClub {display: block;}
+
+#navMusic {display: block;}
+
+#navCulture {display: block;}*/
+                           
+.dropbtn {color: white;
+    background-color:transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;}
+
+#myInput {background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 10px 0px 10px 36px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+	}
+
+#myDropdown {}
+
+.dropdown {margin: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	margin-top:7px;
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+	height: 500%;
+    overflow: scroll;
+    border: 1px solid #ddd;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+	}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display:block;}
+
+#startheader {text-align: center;
+              padding-top: 130px;
+              font-family: 'Source Code Pro', monospace;
+              color: #FFF8F0;
+              font-size: 35px;}
+			  
+/* Kategorisidan + objektsidan, inklusive navigering */
+			  
+#wrapper {background-color: #EEEEEE;}
+
+main {background-color: #FFFFFF;
+margin: auto;
+padding: 5px;
+margin-top: 9px;
+width: 98%;} 
+
+#filtering {
+			padding-top: 10px;
+			font-family: 'Quicksand', sans-serif;}
+            
+#filter {float:left;
+        padding-left:140px;
+        font-family: 'Quicksand', sans-serif;
+}
+            		  
+#navCategories {padding-top: 10px;
+				list-style: none;
+                font-family: 'Quicksand', sans-serif;
+                text-align: left;
+				margin: auto;
+				background-color: #000;}
+
+#navCategories a {text-decoration: none;
+font-size: 10px;
+font-family: 'Quicksand', sans-serif;}  
+
+#navHeart {position: relative;
+    width:70px;
+    font-size:40px;
+	cursor: pointer;
+	}
+
+#navHeart i {
+    position:absolute;
+    bottom: 10px;
+    color: #F66;}
+	
+/* Kategorisidan, karta och lista med objekt */
+		   
+#map {background-color: #FFF;
+	  margin: auto;
+	  margin-top: 10px;
+	  width: 98%;
+	  height: 200px;
+	  border: 3px solid #ddd;
+	} 
+						   
+#scrollList {background-color: #FFFFFF;
+	overflow: auto;
+    white-space: nowrap;
+	height: 500px;
+	font-family: 'Quicksand', sans-serif;
+    margin-top: 0px;
+	margin-left: 90px; 
+	margin-right: 90px;
+
+	}
+	
+#scrollList ul li {display: inline-block;
+} 	
+
+.objektList {width: 300px; 
+	height: 400px;
+	background-color: transparent; 
+	margin: 0px;
+	padding: 0px;
+}
+
+.objektList p {font-size: 12px;}
+
+.objektList h2 {font-size:20px;
+}
+
+#btn {}
+
+#btn1 a {text-decoration: none;
+		display: inline-block;
+		padding: 8px 17px;
+        font-size: 100px;}
+        
+#btn1 a:hover {background-color: #FFF;
+ 			color: black;}
+		  
+.previous {/*background-color: #f1f1f1;*/
+			float: left;
+			margin-top: -380px;
+			color: black;}
+	
+#btn2 a {text-decoration: none;
+		display: inline-block;
+		padding: 8px 17px;
+        font-size: 100px;}
+		
+#btn2 a:hover {background-color: #FFF;
+ 			color: black;}
+			
+.next {/*background-color: #f1f1f1;*/
+	color: black;
+	float: right;
+	margin-top: -380px;
+}  	
+
+/* Objektsidan */
+
+#objekt {font-family: 'Quicksand', sans-serif;
+        text-align: center;
+		background-color: #FFFFFF;
+		padding: 10px;}
+		
+#mapObjekt {background-color: #d4d4d4;
+	  margin-bottom: 10px;
+	  padding: 10px;
+	  display: none;
+	  width:100px;}
+		
+/* Footer */
+				   					   
+footer {background-color: #000000;
+		color: #FFFFFF;
+		font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-size: 12px;
+		padding: 10px;
+		margin-top:10px;}	
+	
+/* Sparade objekt */	
+
+#myDIV {display: none;}
+
+#popupObjekts {background-color: #FFF;
+	position: absolute;
+	opacity: 0.9;
+	z-index: 1;
+	width: 100%;
+	height: 50%;
+	padding: 10px; 
+	overflow: scroll;
+	float: right; 
+	font-family: 'Quicksand', sans-serif;
+}
+
+#popupObjekts ul li {display: inline;} 	
+
+#popupObjekts h1 {text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-size: 30px;
+text-align: center;}	
+	
+.savedObjekt {width: 90%; 
+	height: 20%;
+	background-color: #FFF; 
+	padding: 10px;
+	margin: 10px;}	
+		
+.savedObjekt h2 {font-size: 15px;}
+
+#objekt p {float:left;}
+
+#objekt h1 {text-align: center; }
+
+#objekt
+.save {margin-left:100px; }
+.showmap {margin-left:1000px; margin-bottom:50px;}
+.pictures {margin-left:570px;}
+.description {margin-left:100px; margin-top:100px; }
+.ratings {margin-left:300px; margin-top:100px;}
+.open {margin-left:800px; margin-top:100px;}
+.contact {margin-left: 1000px; margin-top:100px;}
+
+/* Responsiv design */	
+@media screen and (max-width: 850px) {
+	
+	.nav-box {
+	display:inline-block;
+    width:20%;
+    text-align: center;
+	}
+	
+	#navHeart {
+    font-size:30px;
+	}
+	
+	.objektList img {
+		width:60%;
+	}
+	
+	.objektList h2 { 
+		font-size:15px;
+	}
+	
+	#btn2 a {
+        font-size: 50px;}
+		
+	#btn1 a {
+        font-size: 50px;}
+		
+	#scrollList { 
+		height:400px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.nav-box {
+	font-size:10px;
+	}
+	
+	#popupObjekts h1 { 
+	font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+    .nav-box {
+    display:inline-block;
+    width:100%;
+	margin:auto;
+    text-align: center;
+}
+    img {
+        width:250px;
+        height:307px;
+    }
+    
+}

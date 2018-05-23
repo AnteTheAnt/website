@@ -1,0 +1,996 @@
+{
+
+	"aktiviteter": "platser",
+	"namn": [{
+		"id": "42",
+        "location": "Växjö",
+        "name": "Inlåst - Real Life Room Escape Game",
+       
+        
+        "telephone": "070-736 08 59",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+		"booking": "Y",
+		
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"
+		
+		},
+		
+		{
+		"id": "99",
+        "location": "Växjö",
+        "name": "Knock 'em Down",
+       
+        
+        "telephone": "0470-122 22",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "13.30",
+		"mon_close":"22.00",
+		"tue_open": "13.30",
+		"tue_close": "22.00",
+		"wed_open": "13.30",
+		"wed_close": "23.00",
+		"thu_open": "13.30",
+		"thu_close": "23.00",
+		"fri_open": "13.30",
+		"fri_close": "01.00",
+		"sat_open": "10.30",
+		"sat_close": "01.00",
+		"sun_open": "10.30",
+		"sun_close": "19.00"
+		
+		},
+		
+		{
+		"id": "13",
+        "location": "Växjö",
+        "name": "Medley Växjö simhall & Aqua Mera",
+       
+        
+        "telephone": "010-410 72 40",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "10.00",
+		"mon_close":"21.30",
+		"tue_open": "06.00",
+		"tue_close": "20.00",
+		"wed_open": "06.00",
+		"wed_close": "21.30",
+		"thu_open": "06.00",
+		"thu_close": "18.00",
+		"fri_open": "06.00",
+		"fri_close": "20.00",
+		"sat_open": "10.00",
+		"sat_close": "18.00",
+		"sun_open": "10.00",
+		"sun_close": "18.00"
+		
+		},
+           
+		   	{
+		"id": "38",
+        "location": "Borgholm",
+        "name": "Greby gokart",
+       
+        
+        "telephone": "073-948 82 52",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "11.00",
+		"sat_close": "15.00",
+		"sun_open": "-",
+		"sun_close": "-"
+		
+		},
+		
+		   	{
+		"id": "28",
+        "location": "Borgholm",
+        "name": "Borgholms Badhus",
+       
+        
+        "telephone": "0485-56 07 71",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "13.00",
+		"tue_close": "20.00",
+		"wed_open": "13.00",
+		"wed_close": "21.00",
+		"thu_open": "13.00",
+		"thu_close": "16.00",
+		"fri_open": "11.00",
+		"fri_close": "18.00",
+		"sat_open": "10.00",
+		"sat_close": "16.00",
+		"sun_open": "11.00",
+		"sun_close": "16.00"
+		
+		},
+          	{
+		"id": "1",
+        "location": "Färjestaden",
+        "name": "Ölands djur och nöjespark",
+       
+        
+        "telephone": "0485-392 22",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "11.00",
+		"mon_close":"17.00",
+		"tue_open": "11.00",
+		"tue_close": "17.00",
+		"wed_open": "11.00",
+		"wed_close": "17.00",
+		"thu_open": "11.00",
+		"thu_close": "17.00",
+		"fri_open": "11.00",
+		"fri_close": "17.00",
+		"sat_open": "11.00",
+		"sat_close": "17.00",
+		"sun_open": "11.00",
+		"sun_close": "17.00"
+		
+		},
+		
+		        	{
+		"id": "35",
+        "location": "Kalmar",
+        "name": "Skogstorps Hyrkart",
+       
+        
+        "telephone": "070-968 80 43",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+		"booking": "Y",
+		
+        "mon_open": "-",
+		"mon_close":"",
+		"tue_open": "",
+		"tue_close": "",
+		"wed_open": "",
+		"wed_close": "",
+		"thu_open": "",
+		"thu_close": "",
+		"fri_open": "",
+		"fri_close": "",
+		"sat_open": "",
+		"sat_close": "",
+		"sun_open": "",
+		"sun_close": ""
+		
+		},
+				        	{
+		"id": "46",
+        "location": "Kalmar",
+        "name": "Kalmar Gamecenter",
+       
+        
+        "telephone": "0480-49 20 60",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "15.00",
+		"mon_close":"21.00",
+		"tue_open": "15.00",
+		"tue_close": "21.00",
+		"wed_open": "15.00",
+		"wed_close": "21.00",
+		"thu_open": "15.00",
+		"thu_close": "21.00",
+		"fri_open": "15.00",
+		"fri_close": "21.00",
+		"sat_open": "12.00",
+		"sat_close": "20.00",
+		"sun_open": "12.00",
+		"sun_close": "20.00"
+		
+		},
+		
+		
+				        	{
+		"id": "105",
+        "location": "Kalmar",
+        "name": "Superbowl i Kalmar",
+       
+        
+        "telephone": "0480-230 07",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "09.30",
+		"mon_close":"21.00",
+		"tue_open": "15.00",
+		"tue_close": "21.00",
+		"wed_open": "09.30",
+		"wed_close": "21.00",
+		"thu_open": "09.30",
+		"thu_close": "21.00",
+		"fri_open": "16.00",
+		"fri_close": "22.00",
+		"sat_open": "12.00",
+		"sat_close": "22.00",
+		"sun_open": "12.00",
+		"sun_close": "18.00"
+		
+		},
+		
+		
+				        	{
+		"id": "27",
+        "location": "Kalmar",
+        "name": "Äventyrsbadet i Kalmar",
+       
+        
+        "telephone": "0480-45 27 00",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "06.15",
+		"mon_close":"21.00",
+		"tue_open": "08.00",
+		"tue_close": "21.00",
+		"wed_open": "06.15",
+		"wed_close": "21.00",
+		"thu_open": "08.00",
+		"thu_close": "21.00",
+		"fri_open": "06.15",
+		"fri_close": "21.00",
+		"sat_open": "10.00",
+		"sat_close": "18.00",
+		"sun_open": "10.00",
+		"sun_close": "18.00"
+		
+		},
+		
+		
+						        	{
+		"id": "109",
+        "location": "Ljungby",
+        "name": "Sunnerbo Bowling AB",
+       
+        
+        "telephone": "0372-145 77",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "14.00",
+		"mon_close":"21.00",
+		"tue_open": "14.00",
+		"tue_close": "21.00",
+		"wed_open": "14.00",
+		"wed_close": "21.00",
+		"thu_open": "11.00",
+		"thu_close": "22.00",
+		"fri_open": "14.00",
+		"fri_close": "21.00",
+		"sat_open": "13.00",
+		"sat_close": "21.00",
+		"sun_open": "14.00",
+		"sun_close": "17.00"
+		
+		},
+		
+		
+						        	{
+		"id": "109",
+        "location": "Ljungby",
+        "name": "Ljungby Simhall och Äventyrsbad",
+       
+        
+        "telephone": "0372-78 92 40",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "06.15",
+		"mon_close":"21.00",
+		"tue_open": "08.00",
+		"tue_close": "20.00",
+		"wed_open": "06.00",
+		"wed_close": "16.00",
+		"thu_open": "08.00",
+		"thu_close": "21.00",
+		"fri_open": "08.00",
+		"fri_close": "20.00",
+		"sat_open": "11.00",
+		"sat_close": "16.00",
+		"sun_open": "11.00",
+		"sun_close": "16.00"
+		
+		},
+		
+								        	{
+		"id": "31",
+        "location": "Älmhult",
+        "name": "Delary Gokart",
+       
+        
+        "telephone": "0476-70 99 70",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "09.00",
+		"mon_close":"21.00",
+		"tue_open": "09.00",
+		"tue_close": "21.00",
+		"wed_open": "09.00",
+		"wed_close": "21.00",
+		"thu_open": "09.00",
+		"thu_close": "21.00",
+		"fri_open": "09.00",
+		"fri_close": "21.00",
+		"sat_open": "09.00",
+		"sat_close": "21.00",
+		"sun_open": "09.00",
+		"sun_close": "21.00"
+		
+		},
+		
+		
+								        	{
+		"id": "44",
+        "location": "Oskarshamn",
+        "name": "The Big Bang",
+       
+        
+        "telephone": "0491-78 44 00",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "17.00",
+		"tue_close": "22.00",
+		"wed_open": "16.00",
+		"wed_close": "22.00",
+		"thu_open": "16.00",
+		"thu_close": "22.00",
+		"fri_open": "15.00",
+		"fri_close": "24.00",
+		"sat_open": "12.00",
+		"sat_close": "24.00",
+		"sun_open": "-",
+		"sun_close": "-"
+		
+		},
+		
+								        	{
+		"id": "107",
+        "location": "Oskarshamn",
+        "name": "Oskarshamns Bowlinghall",
+       
+        
+        "telephone": "0491-183 00",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "10.00",
+		"mon_close":"22.00",
+		"tue_open": "10.00",
+		"tue_close": "22.00",
+		"wed_open": "10.00",
+		"wed_close": "22.00",
+		"thu_open": "10.00",
+		"thu_close": "22.00",
+		"fri_open": "10.00",
+		"fri_close": "22.00",
+		"sat_open": "10.00",
+		"sat_close": "22.00",
+		"sun_open": "10.00",
+		"sun_close": "18.00"
+		
+		},
+		
+									        	{
+		"id": "16",
+        "location": "Oskarshamn",
+        "name": "Arena Äventyrsbad",
+       
+        
+        "telephone": "0491-882 10",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "12.00",
+		"mon_close":"20.00",
+		"tue_open": "12.00",
+		"tue_close": "20.00",
+		"wed_open": "12.00",
+		"wed_close": "20.00",
+		"thu_open": "12.00",
+		"thu_close": "20.00",
+		"fri_open": "09.00",
+		"fri_close": "20.00",
+		"sat_open": "09.00",
+		"sat_close": "16.00",
+		"sun_open": "09.00",
+		"sun_close": "16.00"
+		
+		},
+		
+									        	{
+		"id": "113",
+        "location": "Västervik",
+        "name": "Västerviks klättercenter",
+       
+        
+        "telephone": "070-423 72 29",
+        "mail": "",
+        "address": "",
+        "website": "",
+        
+        "mon_open": "18.00",
+		"mon_close":"21.00",
+		"tue_open": "18.00",
+		"tue_close": "21.00",
+		"wed_open": "18.00",
+		"wed_close": "21.00",
+		"thu_open": "18.00",
+		"thu_close": "21.00",
+		"fri_open": "18.00",
+		"fri_close": "21.00",
+		"sat_open": "12.00",
+		"sat_close": "15.00",
+		"sun_open": "12.00",
+		"sun_close": "15.00"
+		
+		},
+		
+		{
+			
+		"id": "33",
+        "location": "Jönköping",
+        "name": "Vroom Göran Berggren",
+       
+        
+        "telephone": "0708-77 96 80",
+        "mail": "",
+        "address": "Bordsvägen 7 Jönköping",
+        "website": "www.vroom.se",
+        
+        "mon_open": "08.00",
+		"mon_close":"22.00",
+		"tue_open": "08.00",
+		"tue_close": "22.00",
+		"wed_open": "08.00",
+		"wed_close": "22.00",
+		"thu_open": "08.00",
+		"thu_close": "22.00",
+		"fri_open": "08.00",
+		"fri_close": "22.00",
+		"sat_open": "08.00",
+		"sat_close": "22.00",
+		"sun_open": "08.00",
+		"sun_close": "22.00"	
+			
+		},
+			 
+		{
+			
+		"id": "34",
+        "location": "Jönköping",
+        "name": "Jönköpings Karting Club",
+       
+        
+        "telephone": "",
+        "mail": "ordf@jkckarting.se",
+        "address": "Bordsvägen 7 Jönköping",
+        "website": "www.jkckarting.se/",
+        
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "16.00",
+		"tue_close": "20.30",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "16.00",
+		"thu_close": "20.30",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "09.00",
+		"sat_close": "14.00",
+		"sun_open": "-",
+		"sun_close": "-"
+			
+		},
+		
+		{
+			
+		"id": "50",
+        "location": "Jönköping",
+        "name": "Game On Paintball",
+       
+        
+        "telephone": "076-367 81 39",
+        "mail": "gameonpaintball.jkpg@gmail.com",
+        "address": "-",
+        "website": "www.jonkoping.net/turism/objekt.asp?id=183",
+        
+		//Öppet dygnet runt//
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"
+			
+		},
+		
+		{
+			
+		"id": "51",
+        "location": "Jönköping",
+        "name": "A6 Paintballcenter",
+       
+        
+        "telephone": "036-550 53 15",
+        "mail": "info@a6paintballpark.se",
+        "address": "Bataljonsgatan 6 Jönköping",
+        "website": "http://a6paintball.se/",
+        
+		//står inga öppettider?//
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"
+			
+		},
+		
+		{
+			
+		"id": "112",
+        "location": "Jönköping",
+        "name": "Bowling City",
+       
+        
+        "telephone": "036-71 48 40",
+        "mail": "info@bowlingcity.se",
+        "address": "Gjuterigatan 28 Jönköping",
+        "website": "www.bowlingcity.se",
+        
+		
+        "mon_open": "09.00",
+		"mon_close":"22.00",
+		"tue_open": "09.00",
+		"tue_close": "22.00",
+		"wed_open": "09.00",
+		"wed_close": "22.00",
+		"thu_open": "09.00",
+		"thu_close": "22.00",
+		"fri_open": "09.00",
+		"fri_close": "00.00",
+		"sat_open": "10.00",
+		"sat_close": "00.00",
+		"sun_open": "11.00",
+		"sun_close": "21.00"
+			
+		},
+		
+		{
+			
+		"id": "25",
+        "location": "Nässjö",
+        "name": "Nässjö Simhall",
+       
+        
+        "telephone": "0380-51 82 00",
+        "mail": "-",
+        "address": "Anneforsvägen 22 Nässjö",
+        "website": "http://www.nassjo.se/Kommuninvaanare/Sport-och-fritid/Sportutbud/Simhall",
+        
+		
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "10.15",
+		"tue_close": "18.00",
+		"wed_open": "10.15",
+		"wed_close": "18.00",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "10.15",
+		"fri_close": "18.00",
+		"sat_open": "10.15",
+		"sat_close": "18.00",
+		"sun_open": "-",
+		"sun_close": "-"
+			
+		},
+		
+		{
+			
+		"id": "2",
+        "location": "Värnamo",
+        "name": "High Chaparral",
+       
+        
+        "telephone": "0370-827 00",
+        "mail": "-",
+        "address": "High Chaparral Kulltorp",
+        "website": "https://www.highchaparral.se/sv/",
+        
+		
+        "mon_open": "10.00",
+		"mon_close":"18.00",
+		"tue_open": "10.00",
+		"tue_close": "18.00",
+		"wed_open": "10.00",
+		"wed_close": "18.00",
+		"thu_open": "10.00",
+		"thu_close": "18.00",
+		"fri_open": "10.00",
+		"fri_close": "18.00",
+		"sat_open": "10.00",
+		"sat_close": "18.00",
+		"sun_open": "10.00",
+		"sun_close": "18.00"
+			
+		},
+		
+		{
+			
+		"id": "41",
+        "location": "Sävsjö",
+        "name": "Boda Borg Sävsjö",
+       
+        
+        "telephone": "0382-675 50",
+        "mail": "savsjo@bodaborg.se",
+        "address": "Runstigen 13 Sävsjö",
+        "website": "http://www.bodaborg.se/anlaggningar/savsjo/",
+        
+		
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "10.00",
+		"tue_close": "17.00",
+		"wed_open": "10.00",
+		"wed_close": "17.00",
+		"thu_open": "10.00",
+		"thu_close": "17.00",
+		"fri_open": "10.00",
+		"fri_close": "17.00",
+		"sat_open": "10.00",
+		"sat_close": "17.00",
+		"sun_open": "10.00",
+		"sun_close": "17.00"
+			
+		},
+		
+		{
+			
+		"id": "23",
+        "location": "Vetlanda",
+        "name": "Myresjö Simhall",
+       
+        
+        "telephone": "0383-967 23",
+        "mail": "badogym@vetlanda.se/",
+        "address": "Vetlandavägen 10 Vetlanda",
+        "website": "http://www2.destinationvetlanda.se/sv/se-gora/a400298/myresjo_simhall_400298/detaljer",
+        
+		
+        "mon_open": "09.00",
+		"mon_close":"20.00",
+		"tue_open": "09.00",
+		"tue_close": "20.00",
+		"wed_open": "09.00",
+		"wed_close": "20.00",
+		"thu_open": "09.00",
+		"thu_close": "20.00",
+		"fri_open": "09.00",
+		"fri_close": "20.00",
+		"sat_open": "09.00",
+		"sat_close": "20.00",
+		"sun_open": "09.00",
+		"sun_close": "20.00"
+			
+		},
+		
+		{
+			
+		"id": "24",
+        "location": "Eksjö",
+        "name": "Nannylunds Badhus",
+       
+        
+        "telephone": "0381-360 00",
+        "mail": "kommun@eksjo.se",
+        "address": "Nannylundsgatan 23A Eksjö",
+        "website": "https://www.activated.se/badhus/eksjo/nannylunds-badhus.html",
+        
+		//står inga öppettider?//
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"
+			
+		},
+		
+		{
+			
+		"id": "111",
+        "location": "Eksjö",
+        "name": "Eksjö Bowlinghall",
+       
+        
+        "telephone": "0381-163 00",
+        "mail": "kommun@eksjo.se",
+        "address": "Kaserngatan 30 Eksjö",
+        "website": "http://www.eksjobowling.se/",
+        
+		//öppet dygnet runt (stängt tis-ons)//
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "-",
+		"wed_close": "-",
+		"thu_open": "-",
+		"thu_close": "-",
+		"fri_open": "-",
+		"fri_close": "-",
+		"sat_open": "-",
+		"sat_close": "-",
+		"sun_open": "-",
+		"sun_close": "-"
+			
+		},
+		
+		{
+			
+		"id": "117",
+        "location": "Tranås",
+        "name": "Äppelvikens Äventyrspark",
+       
+        
+        "telephone": "070-812 76 98",
+        "mail": "-",
+        "address": "Amiralsvägen Gränna Hamn",
+        "website": "http://www.appelvikensaventyrspark.se/",
+        
+
+        "mon_open": "10.00",
+		"mon_close":"20.00",
+		"tue_open": "10.00",
+		"tue_close": "20.00",
+		"wed_open": "10.00",
+		"wed_close": "20.00",
+		"thu_open": "10.00",
+		"thu_close": "20.00",
+		"fri_open": "10.00",
+		"fri_close": "20.00",
+		"sat_open": "10.00",
+		"sat_close": "20.00",
+		"sun_open": "10.00",
+		"sun_close": "20.00"
+			
+		},
+		
+		{
+			
+		"id": "39",
+        "location": "Lessebo",
+        "name": "Raceland",
+       
+        
+        "telephone": "0472-135 90",
+        "mail": "hagaslatt@raceland.se",
+        "address": "Hagaslätt Hovmantorp",
+        "website": "http://www.raceland.se/",
+        
+
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "-",
+		"tue_close": "-",
+		"wed_open": "13.00",
+		"wed_close": "17.00",
+		"thu_open": "13.00",
+		"thu_close": "17.00",
+		"fri_open": "13.00",
+		"fri_close": "17.00",
+		"sat_open": "13.00",
+		"sat_close": "17.00",
+		"sun_open": "13.00",
+		"sun_close": "17.00"
+			
+		},
+		
+		{
+			
+		"id": "100",
+        "location": "Lessebo",
+        "name": "Bowling & Nöje",
+       
+        
+        "telephone": "0478-420 55",
+        "mail": "info@bowlingnoje.se",
+        "address": "Centralgatan 14 Hovmantorp",
+        "website": "http://www.bowlingnoje.se/",
+        
+
+        "mon_open": "-",
+		"mon_close":"-",
+		"tue_open": "14.00",
+		"tue_close": "21.00",
+		"wed_open": "14.00",
+		"wed_close": "21.00",
+		"thu_open": "14.00",
+		"thu_close": "21.00",
+		"fri_open": "15.00",
+		"fri_close": "22.00",
+		"sat_open": "11.00",
+		"sat_close": "00.00",
+		"sun_open": "11.00",
+		"sun_close": "18.00"
+			
+		},
+		
+		{
+			
+		"id": "6",
+        "location": "Tingsryd",
+        "name": "Älgriket",
+       
+        
+        "telephone": "070-757 73 00",
+        "mail": "-",
+        "address": "Yttra Källehult Tingsryd",
+        "website": "www.älgriket.se",
+        
+
+        "mon_open": "11.00",
+		"mon_close":"17.00",
+		"tue_open": "11.00",
+		"tue_close": "17.00",
+		"wed_open": "11.00",
+		"wed_close": "17.00",
+		"thu_open": "11.00",
+		"thu_close": "17.00",
+		"fri_open": "11.00",
+		"fri_close": "17.00",
+		"sat_open": "11.00",
+		"sat_close": "17.00",
+		"sun_open": "11.00",
+		"sun_close": "17.00"
+			
+		},
+		
+		{
+			
+		"id": "12",
+        "location": "Tingsryd",
+        "name": "Medley Vattenpalatset Kaskad",
+       
+        
+        "telephone": "010-450 90 90",
+        "mail": "vattenpalatsetkaskad@medley.se",
+        "address": "Södra Storgatan 90B Tingsryd",
+        "website": "https://www.medley.se/vara-center/vattenpalatset-kaskad#?businessUnitIds=8811&tabIndex=0",
+        
+
+        "mon_open": "12.00",
+		"mon_close":"20.00",
+		"tue_open": "14.00",
+		"tue_close": "20.00",
+		"wed_open": "12.00",
+		"wed_close": "20.30",
+		"thu_open": "12.00",
+		"thu_close": "20.00",
+		"fri_open": "12.00",
+		"fri_close": "19.00",
+		"sat_open": "10.00",
+		"sat_close": "16.00",
+		"sun_open": "10.00",
+		"sun_close": "16.00"
+			
+		},
+		
+		{
+			
+		"id": "101",
+        "location": "Tingsryd",
+        "name": "Bowlinghallen Tingsryd",
+       
+        
+        "telephone": "0477-100 29",
+        "mail": "info@tingsrydkk.se",
+        "address": "Skolgatan 12 Tingsryd",
+        "website": "http://www.tingsrydkk.se/",
+        
+
+        "mon_open": "10.00",
+		"mon_close":"21.00",
+		"tue_open": "10.00",
+		"tue_close": "21.00",
+		"wed_open": "10.00",
+		"wed_close": "21.00",
+		"thu_open": "10.00",
+		"thu_close": "21.00",
+		"fri_open": "10.00",
+		"fri_close": "21.00",
+		"sat_open": "12.00",
+		"sat_close": "18.00",
+		"sun_open": "12.00",
+		"sun_close": "18.00"
+			
+		}
+
+	]
+}

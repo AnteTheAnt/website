@@ -1,0 +1,310 @@
+{
+
+	"load": [
+		{
+		"id": "698",
+        "location": "Växjö",
+        "name": "Grand samarkand",
+        "description": "ca 70 butiker. Allt från kläder, elektronik, hobbybutik, köksprylar, frisör, heminredning, sportbutik och matbutik",
+        
+        "telephone": "0470-78 00 70",
+        "mail": "info@grandsamarkand.se",
+        "address": "Hejaregatan 32, 352 46 Växjö",
+        "website": "http://grandsamarkand.se/",
+        
+        "mon_open": "10:00",
+		"mon_close":"20:00",
+		"tue_open": "10.00",
+		"tue_close": "20.00",
+		"wed_open": "10.00",
+		"wed_close": "20.00",
+		"thu_open": "10.00",
+		"thu_close": "20.00",
+		"fri_open": "10.00",
+		"fri_close": "20.00",
+		"sat_open": "10.00",
+		"sat_close": "18.00",
+		"sun_open": "10.00",
+		"sun_close": "18.00"
+		
+		},
+		
+                {
+                    "id": "700",
+                    "location": "Växjö",
+                    "name": "Affärshuset tegner",
+                    "description": "ca 10 butiker. Klädesbutik, hobby-elektronik affär, systembolag, apotek, frisör och skönhetsbutiker.",
+                    
+                    "telephone": "070-107 66 25",
+                    "mail": "charlotte.wallden@poefastighetspartner.se",
+                    "address": "Storgatan 36-40, Västra Esplanaden 5, 352 31 Växjö ",
+                    "website": "https://www.tegner.info/",
+                    
+                    "mon_open": "10.00",
+					"mon_close": "18.00",
+					"tue_open": "10.00",
+					"tue_close": "18.00",
+					"wed_open": "10.00",
+					"wed_close": "18.00",
+					"thu_open": "10.00",
+					"thu_close": "18.00",
+					"fri_open": "10.00",
+					"fri_close": "18.00",
+					"sat_open": "10.00",
+					"sat_close": "16.00",
+					"sun_open": "12.00",
+					"sun_close": "16.00"
+                    
+				
+
+                },
+	
+	
+	
+    {
+        "id": "704",
+        "location": "Öland",
+        "name": "Ölands köpstad",
+        "description": "ca 20 butiker. klädbutiker, apotek, systembolag, matbutik, djuraffärer m.m.",
+        
+        "telephone": "070-309 72 81",
+        "mail": "info@olandskopstad.se",
+        "address": "Brandstationsvägen 11, Färjestaden",
+        "website": "http://www.olandskopstad.se/",
+        
+        "mon_open": "10.00",
+		"mon_close": "19.00",
+		"tue_open": "10.00",
+		"tue_close": "19.00",
+		"wed_open": "10.00",
+		"wed_close": "19.00",
+		"thu_open": "10.00",
+		"thu_close": "19.00",
+		"fri_open": "10.00",
+		"fri_close": "19.00",
+		"sat_open": "10.00",
+		"sat_close": "16.00",
+		"sun_open": "11.00",
+		"sun_close": "16.00"
+		
+		
+		
+		
+   
+
+    },
+
+
+            {
+                "id": "705",
+                "location": "Kalmar",
+                "name": "Baronen",
+                "description": "Över 35 butiker, kläder, apotek, skönhetsbutiker, elektronik, smyckesbutiker, floristbutik, sportbutik, köksbutik, matbutik och hobbymutiker. 600 parkeringsplatser i anslutning till gallerian",
+        
+                "telephone": "070–297 92 93",
+                "mail": "maria.sampson@poefastighetspartner.se",
+                "address": "SKEPPSBROGATAN 12, KALMAR",
+                "website": "http://www.baronen.se/",
+        
+                "mon_open": "10.00",
+				"mon_close": "19.00",
+				"tue_open": "10.00",
+				"tue_close": "19.00",
+				"wed_open": "10.00",
+				"wed_close": "19.00",
+				"thu_open": "10.00",
+				"thu_close": "19.00",
+				"fri_open": "10.00",
+				"fri_close": "19.00",
+				"sat_open": "10.00",
+				"sat_close": "16.00",
+				"sun_open": "12.00",
+				"sun_close": "16.00"
+				
+				
+
+            },
+
+
+                                {
+                             "id": "706",
+                             "location": "Kalmar",
+                            "name": "Giraffen",
+                            "description": "Ca 30 butiker. Mataffärer, apotek och specialbutiker inom bla kläder, skor, hälsa, telefoni, teknik, hantverk och sport/fritid.",
+        
+                            "telephone": "-",
+                            "mail": "",
+                            "address": "Verkstadsgatan 2, 392 39 Kalmar",
+                            "website": "https://www.giraffen.com/",
+        
+                            "mon_open": "10.00",
+							"mon_close": "19.00",
+							"tue_open": "10.00",
+							"tue_close": "19.00",
+							"wed_open": "10.00",
+							"wed_close": "19.00",
+							"thu_open": "10.00",
+							"thu_close": "19.00",
+							"fri_open": "10.00",
+							"fri_close": "19.00",
+							"sat_open": "10.00",
+							"sat_close": "17.00",
+							"sun_open": "10.00",
+							"sun_close": "17.00"
+
+            },
+		
+
+    
+
+	
+	
+	{
+        "id": "707",
+        "location": "Kalmar",
+        "name": "Hansa city",
+        "description": "Ca 50 olika butiker och något för allas behov och smaker. I samma handelsområde finns möjlighet att handla möbler, heminredning, elektronik, mode, sport, livsmedel och mycket mer",
+        
+        "telephone": "-",
+        "mail": "info@hansacity.se",
+        "address": "Ölandsleden 3-7, Bilbyggarvägen 1-14 samt Arenavägen 5",
+        "website": "http://www.hansacity.se/",
+        
+        "mon_open": "10.00",
+		"mon_close": "19.00",
+		"tue_open": "10.00",
+		"tue_close": "19.00",
+		"wed_open": "10.00",
+		"wed_close": "19.00",
+		"thu_open": "10.00",
+		"thu_close": "19.00",
+		"fri_open": "10.00",
+		"fri_close": "19.00",
+		"sat_open": "10.00",
+		"sat_close": "17.00",
+		"sun_open": "10.00",
+		"sun_close": "17.00"
+
+
+	},
+		
+           {
+            "id": "703",
+            "location": "Ljungby",
+            "name": "Köpcenter månen",
+            "description": "Klädesbutik, elektronikaffär m.m.",
+                            
+            "telephone": "070-868 44 53",
+            "mail": "jonna.citron@heimstaden.com",
+            "address": "Eskilsgatan 1, Ljungby",
+            "website": "-",
+                            
+            "mon_open": "10.00",
+			"mon_close": "18.00",
+			"tue_open": "10.00",
+			"tue_close": "18.00",
+			"wed_open": "10.00",
+			"wed_close": "18.00",
+			"thu_open": "10.00",
+			"thu_close": "18.00",
+			"fri_open": "10.00",
+			"fri_close": "18.00",
+			"sat_open": "10.00",
+			"sat_close": "14.00",
+			"sun_open": "close",
+			"sun_close": "close"
+                        
+       
+                            
+                        },
+						
+		{
+			
+			"id": "710",
+            "location": "Jönköping",
+            "name": "Asecs",
+            "description": "Asecs är ett varuhus som har 80 butiken som riktar sig till allt från elektronik till kläder.",
+                            
+            "telephone": "070-868 44 53",
+            "mail": "info@asecs.se",
+            "address": "Kompanigatan 36, Jönköping",
+            "website": "www.asecs.se",
+                            
+            "mon_open": "10.00",
+			"mon_close": "20.00",
+			"tue_open": "10.00",
+			"tue_close": "20.00",
+			"wed_open": "10.00",
+			"wed_close": "20.00",
+			"thu_open": "10.00",
+			"thu_close": "20.00",
+			"fri_open": "10.00",
+			"fri_close": "20.00",
+			"sat_open": "10.00",
+			"sat_close": "18.00",
+			"sun_open": "11.00",
+			"sun_close": "17.00"
+			
+		},
+		
+		{
+			
+			"id": "738",
+            "location": "Jönköping",
+            "name": "Rosengallerian",
+            "description": "Rosengallerian har allt från elektronikbutiker, klädbutiker och livsmedelsbutiker.",
+                            
+            "telephone": "036 - 39 66 30",
+            "mail": "info@sydfastgruppen.se",
+            "address": "Kungsgatan 23, Jönköping",
+            "website": "www.rosengallerian.se",
+                            
+            "mon_open": "10.00",
+			"mon_close": "18.00",
+			"tue_open": "10.00",
+			"tue_close": "18.00",
+			"wed_open": "10.00",
+			"wed_close": "18.00",
+			"thu_open": "10.00",
+			"thu_close": "18.00",
+			"fri_open": "10.00",
+			"fri_close": "18.00",
+			"sat_open": "10.00",
+			"sat_close": "14.00",
+			"sun_open": "-1",
+			"sun_close": "-1"
+			
+		},
+		
+		{
+			
+			"id": "701",
+            "location": "Tingsryd",
+            "name": "Börjes Tingsryd Varuhus",
+            "description": "Börjes är ett varuhus på 5000 kvm där sortimentet består av livsmedel, dagligvaror, kläder, sport, leksaker, blommor, trädgård, hästsport mm.",
+                            
+            "telephone": "0477-482 00",
+            "mail": "kontor@borjes-tingsryd.se",
+            "address": "Storgatan 66-68, Tingsryd",
+            "website": "www.borjes-tingsryd.se",
+                            
+            "mon_open": "08.00",
+			"mon_close": "20.00",
+			"tue_open": "08.00",
+			"tue_close": "20.00",
+			"wed_open": "08.00",
+			"wed_close": "20.00",
+			"thu_open": "08.00",
+			"thu_close": "20.00",
+			"fri_open": "08.00",
+			"fri_close": "20.00",
+			"sat_open": "08.00",
+			"sat_close": "18.00",
+			"sun_open": "10.00",
+			"sun_close": "16.00"
+			
+		}
+	
+	
+	]
+}

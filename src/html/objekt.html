@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="sv">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/projekt.css">
+
+    <script type="text/javascript" src="../js/Save.js"></script>
+    <script type="text/javascript" src="../js/searchmenu.js"></script>
+ 	<script type="text/javascript" src="../js/City.js"></script>
+ 	<script type="text/javascript" src="../js/Url.js"></script>
+    <script type="text/javascript" src="../js/Data.js"></script>
+	<script type="text/javascript" src="../js/Populate.js"></script>
+	<script type="text/javascript" src="../js/Infopage.js"></script>
+	<script type="text/javascript" src="../js/Main.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+
+<!-- Titel i headern-->
+			<div id="header-title-object" class="header-title">
+            <div id="logotyp"> <a href="index.html"><img src="../pics/logo3.png" alt="logotyp"></a></div>
+			</div>      
+</header>
+
+<!-- Navigering med kategorierna -->
+		<nav>
+		<div id="navCategories">
+        
+				<div id="navShop" class="nav-box">
+				<div class="nav-box-icon">
+				<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:30px"></i></a>
+				</div>
+	<!--			<div class="nav-box-text">
+				<a href="boende.html"></a>
+				</div> -->
+			</div>
+			<div id="navRest" class="nav-box">
+					<div class="nav-box-icon">
+						<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:30px"></i></a>
+					</div>
+	<!--		<div class="nav-box-text">
+						<a href="restauranger.html">RESTAURANG</a>	
+					</div> -->
+				</div>
+				<div id="navShop" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:30px"></i></a>
+					</div>
+<!--					<div class="nav-box-text">
+					<a href="shopping.html">SHOPPING</a>
+					</div> -->
+				</div>
+				<div id="navClub" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:30px"></i></a>
+					</div>
+	<!--				<div class="nav-box-text">
+					<a href="nattklubb.html">NATTKLUBB</a>
+					</div>  -->
+				</div>
+				<div id="navMusic" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-music" style="font-size:30px"></i></a>
+					</div>
+<!--					<div class="nav-box-text">
+					<a href="aktiviteter.html">AKTIVITETER</a>
+					</div> -->
+				</div>
+				<div id="navCulture" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:30px"></i></a>
+					</div>
+<!--					<div class="nav-box-text">
+					<a href="sevärdhet.html">SEVÄRDHET</a>
+					</div> -->
+				</div>
+				
+<!-- Dropdown reponsiv -->
+<div id="navMenu" class="nav-box">
+<div class="dropdown">
+<button onclick="menuFunction()" class="dropbtn">&#9776;</button>
+  <div id="menuDropdown" class="dropdown-content">
+    <a href="boende.html">BOENDE</a>
+	<a href="restauranger.html">RESTAURANG</a>	
+	<a href="shopping.html">SHOPPING</a>
+	<a href="nattklubb.html">NATTKLUBB</a>
+	<a href="aktiviteter.html">AKTIVITETER</a>
+	<a href="sevärdhet.html">SEVÄRDHET</a>
+
+    </div>
+</div></div>
+
+<div id="navHeart"  class="nav-box">
+					<i onclick="showObjects()"><e class="fa fa-heart fa-lg"></i>
+</div>
+                
+</div>    
+</nav>
+
+<div id ="myDIV">
+<div id ="popupObjekts">
+<h1>Dina sparade nöjen</h1>
+  <ul><li><div class="savedObjekt">
+   <hr>
+    	<h2>
+          <a href="objekt.html">Namn</a>
+        </h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>
+    <li><div class="savedObjekt">
+  <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+    <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+    <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+   <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+    <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+    </ul>
+</div></div> 
+
+
+<div id="mapObjekt">
+KARTA
+</div>
+
+<main>
+
+<!-- Objektet med information som läggs till -->
+    <div id="objekt">
+	<div class="title">  <h1>Titel</h1> </div>
+	<br>
+    
+    <div id="information">
+    
+	<div class="save"> <p>Spara <a href=""><i class="fa fa-heart-o"></i></a></p>  </div>	<br>
+
+	<div class="showmap">	<u><p class="flip" onclick="showMap()">Visa karta <i class="fa fa-map-marker" style="font-size:24px"></i></p></u> </div>
+ <br>
+ <div class="pictures"><p>Bilder</p></div>
+ <br>	
+	
+		<div class="description"><p>Beskrivning</p> </div>	<br>
+
+		<div class="ratings">  <p>Betyg</p> </div>	<br>
+
+		<div class="open"> <p>Öppet/stängt</p>  </div>	<br>
+
+		<div class="contact"> <p>Kontakt</p>    </div>	<br>
+
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+<!--<div id="objekt2">	</div> -->
+			
+			 
+		
+	
+    </div>
+      </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+Telefon: 070-282 19 05  Mail: ej222zg@student.lnu.se   
+</footer>
+</div>
+</body>
+</html>

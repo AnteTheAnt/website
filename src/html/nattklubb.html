@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Nöjesguiden - Barer och klubbar i Småland och Öland</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css/projekt.css">
+
+    <script type="text/javascript" src="../js/Save.js"></script>
+    <script type="text/javascript" src="../js/searchmenu.js"></script>
+ 	<script type="text/javascript" src="../js/City.js"></script>
+ 	<script type="text/javascript" src="../js/Url.js"></script>
+    <script type="text/javascript" src="../js/Data.js"></script>
+	<script type="text/javascript" src="../js/Populate.js"></script>
+	<script type="text/javascript" src="../js/Infopage.js"></script>
+	<script type="text/javascript" src="../js/Main.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+
+<!-- Titel i headern -->			
+ <div id="header-title-club" class="header-title">
+    <div id="logotyp"> <a href="index.html"><img src="../pics/logo3.png" alt="logotyp"></a></div>
+	</div> 
+</header>
+
+<!-- Navigering med kategorierna -->
+		<nav>
+		<div id="navCategories">
+        
+          <!-- Dropdown med välj stad -->
+<div id="navCity" class="nav-box">
+<div class="dropdown">
+<div class="nav-box-icon">&#9660;
+<button onclick="myFunction()" class="dropbtn">VÄLJ STAD</button> </div>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Sök..." id="myInput" onkeyup="filterFunction()">
+    <a class="citySelects" href="#alvesta">Alvesta</a>
+	<a class="citySelects" href="#växjö">Växjö</a>
+	<a class="citySelects" href="#ljungby">Ljungby</a>
+	<a class="citySelects" href="#älmhult">Älmhult</a>
+	<a class="citySelects" href="#emmaboda">Emmaboda</a>
+	<a class="citySelects" href="#oskarshamn">Oskarshamn</a>
+	<a class="citySelects" href="#västervik">Västervik</a>
+    <a class="citySelects" href="#bankeryd">Bankeryd</a>
+    <a class="citySelects" href="#borgholm">Borgholm</a>
+    <a class="citySelects" href="#eksjö">Eksjö</a>
+    <a class="citySelects" href="#gislaved">Gislaved</a>
+    <a class="citySelects" href="#kalmar">Kalmar</a>
+  </div>
+</div></div>
+			<div id="navShop" class="nav-box">
+				<div class="nav-box-icon">
+				<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:30px"></i></a>
+				</div>
+	<!--			<div class="nav-box-text">
+				<a href="boende.html"></a>
+				</div> -->
+			</div>
+			<div id="navRest" class="nav-box">
+					<div class="nav-box-icon">
+						<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:30px"></i></a>
+					</div>
+	<!--		<div class="nav-box-text">
+						<a href="restauranger.html">RESTAURANG</a>	
+					</div> -->
+				</div>
+				<div id="navShop" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:30px"></i></a>
+					</div>
+<!--					<div class="nav-box-text">
+					<a href="shopping.html">SHOPPING</a>
+					</div> -->
+				</div>
+				<div id="navClub" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:30px"></i></a>
+					</div>
+	<!--				<div class="nav-box-text">
+					<a href="nattklubb.html">NATTKLUBB</a>
+					</div>  -->
+				</div>
+				<div id="navMusic" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-music" style="font-size:30px"></i></a>
+					</div>
+<!--					<div class="nav-box-text">
+					<a href="aktiviteter.html">AKTIVITETER</a>
+					</div> -->
+				</div>
+				<div id="navCulture" class="nav-box">
+					<div class="nav-box-icon">
+					<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:30px"></i></a>
+					</div>
+<!--					<div class="nav-box-text">
+					<a href="sevärdhet.html">SEVÄRDHET</a>
+					</div> -->
+				</div>
+				
+
+<!-- Dropdown reponsiv -->
+<div id="navMenu" class="nav-box">
+<div class="dropdown">
+<button onclick="menuFunction()" class="dropbtn">&#9776;</button>
+  <div id="menuDropdown" class="dropdown-content">
+    <a href="boende.html">BOENDE</a>
+	<a href="restauranger.html">RESTAURANG</a>	
+    <a href="shopping.html">SHOPPING</a>
+	<a href="nattklubb.html">NATTKLUBB</a>
+	<a href="aktiviteter.html">AKTIVITETER</a>
+	<a href="sevärdhet.html">SEVÄRDHET</a>
+
+    </div>
+</div></div>
+
+<div id="navHeart"  class="nav-box">
+					<i onclick="showObjects()"><e class="fa fa-heart fa-lg"></i>
+				</div>
+                
+</div>    
+</nav>
+
+<div id ="myDIV">
+<div id ="popupObjekts">
+<h1>Dina sparade nöjen</h1>
+  <ul class="savedList">
+  	<!--
+  	<li>
+  		<div class="savedObjekt">
+   <hr>
+    	<h2>
+          <a href="objekt.html">Namn</a>
+        </h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div>
+</li>
+<hr>
+    <li>
+    	<div class="savedObjekt">
+  <h2>
+  	<a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div>
+</li>
+<hr>    
+    <li><div class="savedObjekt">
+    <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+    <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+   <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+<hr>    
+    <li><div class="savedObjekt">
+    <h2><a href="objekt.html">Namn</a></h2>
+           <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
+	</div></li>
+-->
+    </ul>
+</div></div> 
+
+<!-- Kartan placeras här -->
+  <div id="map">
+  Karta
+  </div>
+  
+  <script>
+		
+	  function initMap() {
+		  
+     	var map = new Webmap();
+		  map.initMap();
+	  }
+		
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl0NshLAIS8RWrFHn7HKB4QcEwdeBGgsg&callback=initMap"
+    async defer></script>
+    
+    <script type="text/javascript" src="../js/Webmap.js"></script>
+
+<main>
+	
+	<h2>Nattklubb</h2>
+	<hr>
+<!-- Filtering (finns enbart på restaurang/café och bar/klubb) + sortering -->
+<div id="filtering">
+      			<div class="sorting">
+		<!--   <b>Sortera efter:</b> -->
+				<select id="sortby">
+					<option value="sort">Sortera...</option>
+					<option value="name">Namn (A-Ö)</option>
+					<option value="rating">Bästa betyg</option>
+				</select>
+					</div>
+                    
+					<div class="sorting">
+				<b>Välj typ av klubb:</b>
+				<select>
+					<option value="type1">Typ 1</option>
+					<option value="type2">Typ 2</option>
+				</select>
+					</div>
+</div>   
+       
+	
+		
+        
+        
+<!-- Lista som fylls på -->
+	
+    <div id= "scrollList">	
+    <ul id="scrollUl">
+    
+    <!--
+    
+    <li><div class="objektList">
+	 <img src="pics/beefdish.jpg" alt="Mountain View">
+    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
+   		<p>Beskrivning</p>
+			<p>Öppet/stängt</p>
+			<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
+   		
+         
+	</div></li>
+   
+    <li><div class="objektList">
+	 <img src="pics/beefdish.jpg" alt="Mountain View">
+    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
+   		<p>Beskrivning</p>
+			<p>Öppet/stängt</p>
+			<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
+	</div></li>
+    
+    <li><div class="objektList">
+	 <img src="pics/beefdish.jpg" alt="Mountain View">
+    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
+   		<p>Beskrivning</p>
+			<p>Öppet/stängt</p>
+			<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
+	</div></li>
+    
+    <li><div class="objektList">
+	 <img src="pics/beefdish.jpg" alt="Mountain View">
+    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
+   	<p>Beskrivning</p>
+		<p>Öppet/stängt</p>
+		<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
+	</div></li>
+  
+  -->
+   
+    </ul>
+    </div>
+    
+   <!-- Fram / tillbaka knappar -->
+        <div id="btn1">
+            <a href="#" class="previous round">&#8249;</a>
+        </div>
+        <div id="btn2">
+            <a href="#" class="next round">&#8250;</a>
+         </div>
+	
+    
+</main>
+
+<!-- Footer med kontaktinfo -->
+<footer>
+Telefon: 070-282 19 05  Mail: ej222zg@student.lnu.se   
+</footer>
+
+</body>
+</html>
