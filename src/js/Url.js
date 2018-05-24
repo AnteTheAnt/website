@@ -46,18 +46,18 @@ function Url(controller, callback) {
 		  m_this.handleData(this);
 		}
 	  };
-		
+
 	  this.xhttp.open("GET", "../Json/städer.json", true);
 	  this.xhttp.send();
 
 	  console.log("test1");
 
 	};
-	
+
 	this.handleData = function(xhttp) {
 
 		console.log("test2");
-		
+
 		m_this.cities = JSON.parse(xhttp.responseText);
 
 		this.getActiveCity(m_this.cities);

@@ -59,7 +59,7 @@
 		},
 
     {
-    
+
         "location": "Tingsryd",
         "id": "343",
         "name": "Restaurang Postmästaren",
@@ -88,7 +88,7 @@
     },
 
 		{
-    
+
         "location": "Tingsryd",
         "id": "344",
         "name": "Restaurang Zorba",
@@ -115,9 +115,9 @@
         "sun_close": "20.00"
 
       },
-      
+
       {
-         
+
         "location": "Tingsryd",
         "id": "345",
         "name": "Restaurang Smålandsporten",
@@ -142,11 +142,11 @@
         "sat_close": "-1",
         "sun_open": "09.00",
         "sun_close": "18.00"
-         
+
       },
-      
+
       {
-            
+
         "location": "Tingsryd",
         "id": "347",
         "name": "Kalles R&B",
@@ -171,11 +171,11 @@
         "sat_close": "21.00",
         "sun_open": "12.00",
         "sun_close": "20.00"
-         
+
       },
-      
+
       {
-         
+
         "location": "Tingsryd",
         "id": "367",
         "name": "Restaurang Ladan",
@@ -200,11 +200,11 @@
         "sat_close": "-1",
         "sun_open": "-1",
         "sun_close": "-1"
-         
+
       },
-      
+
       {
-         
+
         "location": "Tingsryd",
         "id": "365",
         "name": "Sabrina Restaurang",
@@ -229,7 +229,7 @@
         "sat_close": "22.00",
         "sun_open": "11.00",
         "sun_close": "21.00"
-         
+
       }
 	]
 }
