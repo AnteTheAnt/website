@@ -190,6 +190,7 @@ Main = {
 
 		Main.initData(); //Update the data on the page
 
+		console.log("main", Main.objs);
 		
 	},
 
