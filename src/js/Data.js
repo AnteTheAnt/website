@@ -1,142 +1,137 @@
 function Data() {
 
-	var m_this = this;
-	var API_KEY = "IOYDQtQU";
+    var m_this = this;
+    var API_KEY = "IOYDQtQU";
 
-	this.getState = false;
+    this.getState = false;
 
-	this.foodDataDone = "";
-	this.url = "";
+    this.foodDataDone = "";
+    this.url = "";
 
-	this.foodJson = "";
-	this.shopData = "";
-	this.attractionData = "";
+    this.foodJson = "";
+    this.shopData = "";
+    this.attractionData = "";
 
-	this.xhttp = "";
-	this.data = [];
-	this.result = "";
+    this.xhttp = "";
+    this.data = [];
+    this.result = "";
 
-	//---------------------------------------------------------------------------------------------
-
-
-
-	/*------------------------------------------------
-	*
-	* Initiate the methods to fetch all data
-	*
-	*-------------------------------------------------
-	*/
-
-	this.initFood = function(foodDataDone, url, jsonUrl) {
-
-		m_this.foodDataDone = foodDataDone;
-
-		m_this.url = url;
-
-		console.log("testtest");
-
-		if(jsonUrl != null) {
-			this.getFoodJson(jsonUrl);
-		}else{
-			this.getFoodInfo(foodDataDone, url);
-		}
-
-		//this.getFoodInfo(foodDataDone, url);
-
-	};
+    //---------------------------------------------------------------------------------------------
 
 
 
-	/*------------------------------------------------
-	*
-	* AJAX call to fetch all food related data
-	*
-	*-------------------------------------------------
-	*/
+    /*------------------------------------------------
+     *
+     * Initiate the methods to fetch all data
+     *
+     *-------------------------------------------------
+     */
+
+    this.initFood = function(foodDataDone, url, jsonUrl) {
+
+        m_this.foodDataDone = foodDataDone;
+
+        m_this.url = url;
+
+        if (jsonUrl != null) {
+            this.getFoodJson(jsonUrl);
+        } else {
+            this.getFoodInfo(foodDataDone, url);
+        }
+    };
 
 
 
-	this.getFoodJson = function(jsonUrl) {
-
-	  this.xhttp = new XMLHttpRequest();
-	  this.xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-		  m_this.handleJson(this);
-		}
-	  };
-
-	  this.xhttp.open("GET", jsonUrl, true);
-	  this.xhttp.send();
-	};
+    /*------------------------------------------------
+     *
+     * AJAX call to fetch all food related data
+     *
+     *-------------------------------------------------
+     */
 
 
 
-	this.handleJson = function(xhttp) {
+    this.getFoodJson = function(jsonUrl) {
 
-		this.food = JSON.parse(xhttp.responseText);
+        this.xhttp = new XMLHttpRequest();
+        this.xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                m_this.handleJson(this);
+            }
+        };
 
-		m_this.foodJson = this.food;
-
-		console.log("test");
-
-		this.getFoodInfo(m_this.foodDataDone, m_this.url);
-
-	};
-
-
-	//--------------------
+        this.xhttp.open("GET", jsonUrl, true);
+        this.xhttp.send();
+    };
 
 
-	this.getFoodInfo = function(foodDataDone, url) {
 
-	  this.xhttp = new XMLHttpRequest();
-	  this.xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-		  m_this.handleData(this);
-			foodDataDone(this);
-		}
-	  };
+    this.handleJson = function(xhttp) {
 
-	  this.xhttp.open("GET", url, true);
-	  this.xhttp.send();
-	};
+        this.food = JSON.parse(xhttp.responseText);
 
-	this.foodDataDone = function(xhttpData) {
+        m_this.foodJson = this.food;
 
-		console.log("Food Data loaded successfully");
-		this.response = JSON.parse(xhttpData.responseText);
+        this.getFoodInfo(m_this.foodDataDone, m_this.url);
 
-		console.log(m_this.foodJson);
-
-		m_this.combine(this.response, m_this.foodJson.load);
-
-		//Main.populateWebsite(this.result);
-
-	};
-
-	this.handleData = function(xhttp) {
-
-		this.food = JSON.parse(xhttp.responseText);
-
-		m_this.foodData = this.food;
-
-	};
+    };
 
 
-	/*
-	*--------------------------------------------------------------------------------
-	*
-	* Combines the JSON file with the SMAPI result and returns it to the Main class
-	*
-	*---------------------------------------------------------------------------------
-	*/
+    //--------------------
 
-	this.combine = function(obj1, obj2) {
 
-		var result = {"payload": Object.assign(obj1.payload, obj2)};
+    this.getFoodInfo = function(foodDataDone, url) {
 
-		console.log(result);
+        this.xhttp = new XMLHttpRequest();
+        this.xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                m_this.handleData(this);
+                foodDataDone(this);
+            }
+        };
 
-		Main.populateWebsite(result);
-	};
+        this.xhttp.open("GET", url, true);
+        this.xhttp.send();
+    };
+
+    this.foodDataDone = function(xhttpData) {
+
+        console.log("Food Data loaded successfully");
+        this.response = JSON.parse(xhttpData.responseText);
+
+        // console.log(m_this.foodJson);
+
+        m_this.combine(this.response, m_this.foodJson.load);
+
+        //Main.populateWebsite(this.result);
+
+    };
+
+    this.handleData = function(xhttp) {
+
+        this.food = JSON.parse(xhttp.responseText);
+
+        m_this.foodData = this.food;
+
+    };
+
+
+    /*
+     *--------------------------------------------------------------------------------
+     *
+     * Combines the JSON file with the SMAPI result and returns it to the Main class
+     *
+     *---------------------------------------------------------------------------------
+     */
+
+    this.combine = function(obj1, obj2) {
+
+        var result = {
+            "payload": Object.assign(obj1.payload, obj2)
+        };
+
+        console.log(result);
+
+        Main.populateWebsite(result);
+    };
 }
