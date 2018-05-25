@@ -28,81 +28,83 @@
 
 <!-- Titel i headern-->
 			<div id="header-title-object" class="header-title">
-            <div id="logotyp"> <a href="index.html"><img src="../pics/logo3.png" alt="logotyp"></a></div>
-			</div>      
+            <div id="logobjekt"><div id="logotyp"> <a href="index.html"><img src="../pics/logo5.png" alt="logotyp"></a></div></div>
+
 </header>
 
-<!-- Navigering med kategorierna -->
-		<nav>
+		<!-- Navigering med kategorierna -->
 		<div id="navCategories">
-        
-				<div id="navShop" class="nav-box">
-				<div class="nav-box-icon">
-				<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:30px"></i></a>
-				</div>
-	<!--			<div class="nav-box-text">
-				<a href="boende.html"></a>
-				</div> -->
-			</div>
-			<div id="navRest" class="nav-box">
-					<div class="nav-box-icon">
-						<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:30px"></i></a>
-					</div>
-	<!--		<div class="nav-box-text">
-						<a href="restauranger.html">RESTAURANG</a>	
-					</div> -->
-				</div>
-				<div id="navShop" class="nav-box">
-					<div class="nav-box-icon">
-					<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:30px"></i></a>
-					</div>
-<!--					<div class="nav-box-text">
-					<a href="shopping.html">SHOPPING</a>
-					</div> -->
-				</div>
-				<div id="navClub" class="nav-box">
-					<div class="nav-box-icon">
-					<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:30px"></i></a>
-					</div>
-	<!--				<div class="nav-box-text">
-					<a href="nattklubb.html">NATTKLUBB</a>
-					</div>  -->
-				</div>
-				<div id="navMusic" class="nav-box">
-					<div class="nav-box-icon">
-					<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-music" style="font-size:30px"></i></a>
-					</div>
-<!--					<div class="nav-box-text">
-					<a href="aktiviteter.html">AKTIVITETER</a>
-					</div> -->
-				</div>
-				<div id="navCulture" class="nav-box">
-					<div class="nav-box-icon">
-					<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:30px"></i></a>
-					</div>
-<!--					<div class="nav-box-text">
-					<a href="sevärdhet.html">SEVÄRDHET</a>
-					</div> -->
-				</div>
-				
+<div id="navHeart">
+					<i onclick="showObjects()"><e class="fa fa-heart fa-lg"></i></div>
+
 <!-- Dropdown reponsiv -->
 <div id="navMenu" class="nav-box">
 <div class="dropdown">
-<button onclick="menuFunction()" class="dropbtn">&#9776;</button>
+<button onclick="menuFunction()" class="dropbtn2">&#9776;</button>
   <div id="menuDropdown" class="dropdown-content">
     <a href="boende.html">BOENDE</a>
 	<a href="restauranger.html">RESTAURANG</a>	
-	<a href="shopping.html">SHOPPING</a>
+    <a href="shopping.html">SHOPPING</a>
 	<a href="nattklubb.html">NATTKLUBB</a>
 	<a href="aktiviteter.html">AKTIVITETER</a>
 	<a href="sevärdhet.html">SEVÄRDHET</a>
 
     </div>
 </div></div>
+	
+	<div id="navShop" class="nav-box">
+	<div class="nav-box-icon">
+	<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:23px"></i></a>
+	</div>
+	<!--<div class="nav-box-text">
+	<a href="boende.html"></a>
+	</div> -->
+	</div>
+	<div id="navRest" class="nav-box">
+	<div class="nav-box-icon">
+	<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:23px"></i></a>
+	</div>
+	<!--<div class="nav-box-text">
+	<a href="restauranger.html">RESTAURANG</a>	
+	</div> -->
+	</div>
+	<div id="navShop" class="nav-box">
+	<div class="nav-box-icon">
+	<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:23px"></i></a>
+	</div>
+	<!--<div class="nav-box-text">
+	<a href="shopping.html">SHOPPING</a>
+	</div> -->
+	</div>
+	<div id="navClub" class="nav-box">
+	<div class="nav-box-icon">
+	<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:23px"></i></a>
+	</div>
+	<!--<div class="nav-box-text">
+	<a href="nattklubb.html">NATTKLUBB</a>
+	</div>  -->
+	</div>
+	<div id="navMusic" class="nav-box">
+	<div class="nav-box-icon">
+	<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-gamepad" style="font-size:23px"></i></a>
+	</div>
+	<!--<div class="nav-box-text">
+	<a href="aktiviteter.html">AKTIVITETER</a>
+	</div> -->
+	</div>
+	<div id="navCulture" class="nav-box">
+	<div class="nav-box-icon">
+	<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:23px"></i></a>
+	</div>
+	<!--<div class="nav-box-text">
+	<a href="sevärdhet.html">SEVÄRDHET</a>
+	</div> -->
+	</div>
+		
 
-<div id="navHeart"  class="nav-box">
-					<i onclick="showObjects()"><e class="fa fa-heart fa-lg"></i>
-</div>
+
+
+
                 
 </div>    
 </nav>
@@ -110,18 +112,25 @@
 <div id ="myDIV">
 <div id ="popupObjekts">
 <h1>Dina sparade nöjen</h1>
-  <ul><li><div class="savedObjekt">
+  <ul class="savedList">
+  	<!--
+  	<li>
+  		<div class="savedObjekt">
    <hr>
     	<h2>
           <a href="objekt.html">Namn</a>
         </h2>
            <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
-	</div></li>
+	</div>
+</li>
 <hr>
-    <li><div class="savedObjekt">
-  <h2><a href="objekt.html">Namn</a></h2>
+    <li>
+    	<div class="savedObjekt">
+  <h2>
+  	<a href="objekt.html">Namn</a></h2>
            <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
-	</div></li>
+	</div>
+</li>
 <hr>    
     <li><div class="savedObjekt">
     <h2><a href="objekt.html">Namn</a></h2>
@@ -142,51 +151,68 @@
     <h2><a href="objekt.html">Namn</a></h2>
            <i class="fa fa-close" style="float: right; margin-top:auto;"></i>
 	</div></li>
+-->
     </ul>
 </div></div> 
 
 
-<div id="mapObjekt">
+<div id="map">
 KARTA
 </div>
 
+<script>
+		
+	  function initMap() {
+		  
+     	var map = new Webmap();
+		  map.initMap();
+	  }
+		
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl0NshLAIS8RWrFHn7HKB4QcEwdeBGgsg&callback=initMap"
+    async defer></script>
+    
+    <script type="text/javascript" src="../js/Webmap.js"></script>
+
 <main>
-
-<!-- Objektet med information som läggs till -->
-    <div id="objekt">
-	<div class="title">  <h1>Titel</h1> </div>
-	<br>
-    
-    <div id="information">
-    
-	<div class="save"> <p>Spara <a href=""><i class="fa fa-heart-o"></i></a></p>  </div>	<br>
-
-	<div class="showmap">	<u><p class="flip" onclick="showMap()">Visa karta <i class="fa fa-map-marker" style="font-size:24px"></i></p></u> </div>
- <br>
- <div class="pictures"><p>Bilder</p></div>
- <br>	
-	
-		<div class="description"><p>Beskrivning</p> </div>	<br>
-
-		<div class="ratings">  <p>Betyg</p> </div>	<br>
-
-		<div class="open"> <p>Öppet/stängt</p>  </div>	<br>
-
-		<div class="contact"> <p>Kontakt</p>    </div>	<br>
-
-		
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-<!--<div id="objekt2">	</div> -->
-			
-			 
-		
-	
-    </div>
-      </div>
+	<!-- Objektet med information som läggs till -->
+	<div id="objekt">
+		<div class="title">
+			<h1>Titel</h1>
+		</div>
+		<div id="information">
+			<div id="info-box-left">
+				<div id="infoRating" class="info-content-left">
+					<h4>Betyg</h4>
+					<i class="fa fa-star" style="font-size:24px"></i><i class="fa fa-star" style="font-size:24px"></i><i class="fa fa-star" style="font-size:24px"></i><i class="fa fa-star-half-empty" style="font-size:24px"></i>
+				</div>
+				<div id="infoOpen" class="info-content-left">
+					<h4>Öppet/stängt</h4>
+				</div>
+				<div class="contact info-content-left">
+				</div>
+			</div>
+			<div id="info-box-center">
+				<div class="info-content-left">
+					<img src="../pics/asian.jpg">
+				</div>
+			</div>
+			<div id="info-box-right">
+				<div id="infoSave" class="info-content-right">
+					<h3>Spara
+						<a href=""><i class="fa fa-heart-o"></i></a>
+					</h3>
+				</div>
+				<div id="infoDescription" class="info-content-right">
+					<h4>Beskrivning</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+	<!--<div id="objekt2">	</div> -->
+		</div>
+	</div>
 
 </main>
 

@@ -26,14 +26,6 @@ function showObjects() {
     }
 }
 
-function showMap() {
-    var x = document.getElementById("mapObjekt");
-    if (x.style.display === "none") {
-        x.style.display = "inline";
-    } else {
-        x.style.display = "none";
-    }
-}
 
 function myFunctionPop() {
     var popup = document.getElementById("myPopup");

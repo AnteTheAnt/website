@@ -124,7 +124,7 @@ function Url(controller, callback) {
 
 		}else if(controller == "attraction") {
 
-			m_this.jsonUrl = ""
+			m_this.jsonUrl = null;
 
 		}else if(controller == "activity") {
 

@@ -2,9 +2,10 @@
 <html lang="sv">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nöjesguiden - Boende i Småland och Öland</title>
-
-   	<link rel="stylesheet" type="text/css" href="../css/projekt.css">
+   
+    <link rel="stylesheet" type="text/css" href="../css/projekt.css">
 
     <script type="text/javascript" src="../js/Save.js"></script>
     <script type="text/javascript" src="../js/searchmenu.js"></script>
@@ -14,6 +15,7 @@
 	<script type="text/javascript" src="../js/Populate.js"></script>
 	<script type="text/javascript" src="../js/Infopage.js"></script>
 	<script type="text/javascript" src="../js/Main.js"></script>
+
 	
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -56,7 +58,7 @@
 </header>
 
 
-
+<!-- Navigering med kategorierna -->
 <div id="navCategories">
 <div id="navHeart">
 					<i onclick="showObjects()"><e class="fa fa-heart fa-lg"></i></div>
@@ -79,7 +81,7 @@
 
 	<div id="navShop" class="nav-box">
 				<div class="nav-box-icon">
-				<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:20px"></i></a>
+				<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:23px"></i></a>
 				</div>
 	<!--			<div class="nav-box-text">
 				<a href="boende.html"></a>
@@ -87,7 +89,7 @@
 			</div>
 			<div id="navRest" class="nav-box">
 					<div class="nav-box-icon">
-						<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:20px"></i></a>
+						<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:23px"></i></a>
 					</div>
 	<!--		<div class="nav-box-text">
 						<a href="restauranger.html">RESTAURANG</a>	
@@ -95,7 +97,7 @@
 				</div>
 				<div id="navShop" class="nav-box">
 					<div class="nav-box-icon">
-					<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:20px"></i></a>
+					<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:23px"></i></a>
 					</div>
 <!--					<div class="nav-box-text">
 					<a href="shopping.html">SHOPPING</a>
@@ -103,7 +105,7 @@
 				</div>
 				<div id="navClub" class="nav-box">
 					<div class="nav-box-icon">
-					<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:20px"></i></a>
+					<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:23px"></i></a>
 					</div>
 	<!--				<div class="nav-box-text">
 					<a href="nattklubb.html">NATTKLUBB</a>
@@ -111,7 +113,7 @@
 				</div>
 				<div id="navMusic" class="nav-box">
 					<div class="nav-box-icon">
-					<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-music" style="font-size:20px"></i></a>
+					<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-gamepad" style="font-size:23px"></i></a>
 					</div>
 <!--					<div class="nav-box-text">
 					<a href="aktiviteter.html">AKTIVITETER</a>
@@ -119,7 +121,7 @@
 				</div>
 				<div id="navCulture" class="nav-box">
 					<div class="nav-box-icon">
-					<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:20px"></i></a>
+					<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:23px"></i></a>
 					</div>
 <!--					<div class="nav-box-text">
 					<a href="sevärdhet.html">SEVÄRDHET</a>
@@ -130,21 +132,8 @@
 	</div> 
 
 
-	
-
-
-<!-- <div id="navCategory"> -->
-
-
-
-
-</div>
-
-
-
-
-
-                
+	</div>
+              
 </div>    
 </nav>
     
@@ -218,8 +207,7 @@
 
 <main>
 	<hr>
-	<h2>Boende
-	<i class="fa fa-home" style="font-size:30px"></i></h2>
+	<h2 style="font-family:'Quicksand', sans-serif; font-size: 190%;">BOENDE <i class="fa fa-home" style="font-size:30px" padding="10px";></i></h2>
 	<hr>
 <!-- Filtering (finns enbart på restaurang/café och bar/klubb) + sortering -->
 <div id="filtering">
@@ -233,16 +221,7 @@
 					</div>
 </div>	        
       
-	<!--	<div id="filter">
-					<div class="sorting">
-				<b>Välj typ av restaurang/café:</b>
-				<select>
-					<option value="type1">typ av restaurang...</option>
-					<option value="type2">Thai</option>
-					<option value="type3">Husmanskost</option>
-				</select>
-					</div>  
-		</div> -->
+
         
 <!-- Lista som fylls på -->
 	
@@ -250,55 +229,13 @@
     
     <ul id="scrollUl">
     
-    <!--
-    
-    <li><div class="objektList">
-	 <img src="../pics/boende/hotel-1749602.jpg" alt="Mountain View">
-    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
-   		<p>Beskrivning</p>
-			<p>Öppet/stängt</p>
-			<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
-   		
-         
-	</div></li>
-   
-    <li><div class="objektList">
-	 <img src="pics/beefdish.jpg" alt="Mountain View">
-    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
-   		<p>Beskrivning</p>
-			<p>Öppet/stängt</p>
-			<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
-	</div></li>
-    
-    <li><div class="objektList">
-	 <img src="pics/beefdish.jpg" alt="Mountain View">
-    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
-   		<p>Beskrivning</p>
-			<p>Öppet/stängt</p>
-			<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
-	</div></li>
-    
-    <li><div class="objektList">
-	 <img src="pics/beefdish.jpg" alt="Mountain View">
-    <a class="foodName" href="objekt.html"><h2>Namn</h2></a>
-   	<p>Beskrivning</p>
-		<p>Öppet/stängt</p>
-		<p>Spara <a href=""><i class="fa fa-heart fa-lg"></i></a></p>
-	</div></li>
   
-  -->
-   
+    
+ 
     </ul>
     
     </div>
-    
-   <!-- Fram / tillbaka knappar -->
-        <div id="btn1">
-            <a href="#" class="previous round">&#8249;</a>
-        </div>
-        <div id="btn2">
-            <a href="#" class="next round">&#8250;</a>
-         </div>
+ 
     
 </main>
 
@@ -306,6 +243,6 @@
 <footer>
 Telefon: 070-282 19 05  Mail: ej222zg@student.lnu.se   
 </footer>
-
+</div>
 </body>
 </html>

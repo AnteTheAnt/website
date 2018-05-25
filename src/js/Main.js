@@ -267,7 +267,7 @@ Main = {
 		
 		Main.data;
 		Main.data = new Data();
-		Main.data.getAttractionInfo(Main.data.attractionDataDone, url, jsonUrl);
+		Main.data.initFood(Main.data.foodDataDone, url, jsonUrl);
 		
 	},
 
@@ -292,7 +292,7 @@ Main = {
 		
 		Main.data;
 		Main.data = new Data();
-		Main.data.getActivityInfo(Main.data.activityDataDone, url, jsonUrl);
+		Main.data.initFood(Main.data.foodDataDone, url, jsonUrl);
 		
 	},
 
@@ -317,7 +317,7 @@ Main = {
 		
 		Main.data;
 		Main.data = new Data();
-		Main.data.initFood(Main.data.accommodationDataDone, url, jsonUrl);
+		Main.data.initFood(Main.data.foodDataDone, url, jsonUrl);
 		
 	},
 
@@ -342,7 +342,7 @@ Main = {
 		
 		Main.data;
 		Main.data = new Data();
-		Main.data.getClubInfo(Main.data.clubDataDone, url, jsonUrl);
+		Main.data.initFood(Main.data.foodDataDone, url, jsonUrl);
 		
 	},
 
@@ -356,7 +356,7 @@ Main = {
 	*/
 	
 	populateWebsite : function(xhttpData) {
-		
+
 		Main.populate;
 		Main.populate = new Populate(xhttpData);
 		

@@ -7,6 +7,7 @@ function Populate(category) {
 	this.elementOne = "";
 
 	this.p1 = "";
+	this.p2 = "";
 
 	//---------------------------------------------------------------------------------------------
 
@@ -50,18 +51,17 @@ function Populate(category) {
 		this.listDiv.appendChild(this.listNewUl);
 
 		//Adds a new element for every object in the payload
-		for(var i=0; i<m_this.category.length; i++) {
+		for(var i=0; i<m_this.category.payload.length; i++) {
 
 			this.listElement = document.getElementById("scrollUl");
 
-			this.elementOne = document.getElementsByClassName("foodName");
 
 			this.li = document.createElement("li");
 			this.listElement.appendChild(this.li);
 
 			this.objDiv = document.createElement("div");
 			this.objDiv.className = "objektList";
-			this.objDiv.id = m_this.category[i].id;
+			this.objDiv.id = m_this.category.payload[i].id;
 			this.li.appendChild(this.objDiv);
 
 			this.img = document.createElement("img");
@@ -69,21 +69,18 @@ function Populate(category) {
 			this.img.alt = "Mountain View";
 			this.objDiv.appendChild(this.img);
 
-			this.p0 = document.createElement("p");
-			this.p0.className = "foodName";
-			this.p0.href = "";
-			this.objDiv.appendChild(this.p0);
+			m_this.a = document.createElement("a");
+			this.a.className = "foodName";
+			this.a.href = "#";
+			this.objDiv.appendChild(m_this.a);
+
 
 			//Adds eventlistener to pass the right object onto the next page
-			this.p0.addEventListener("click", this.initInfo);
+			this.a.addEventListener("click", this.initInfo);
 
-			m_this.p1 = document.createElement("p");
-			m_this.p1.className = "ElemDescription";
-			this.objDiv.appendChild(m_this.p1);
-
-			this.p2 = document.createElement("p");
-			this.p2.innerHTML = "Öppet/Stängt";
-			this.objDiv.appendChild(this.p2);
+			m_this.p2 = document.createElement("p");
+			m_this.p2.className = "rating";
+			this.objDiv.appendChild(m_this.p2);
 
 			this.saveDiv = document.createElement("div");
 			this.saveDiv.className = "saveBtns";
@@ -112,7 +109,9 @@ function Populate(category) {
 
 	this.insertData = function() {
 
-		this.descriptionElems = document.getElementsByClassName("ElemDescription");
+		m_this.elementOne = document.getElementsByClassName("foodName");
+
+		this.ratings = document.getElementsByClassName("rating");
 
 		this.info = "";
 
@@ -120,11 +119,15 @@ function Populate(category) {
 
 			this.info = m_this.category.payload[i];
 
-			m_this.elementOne[i].innerHTML = "<h2>"+ this.info.name +"</h2>";
-			this.descriptionElems[i].innerHTML = this.info.description;
-		}
+			this.rating = parseInt(this.info.rating);
 
-		//m_this.elementOne[0].innerHTML = "<h2>"+m_this.category.payload[0].name+"</h2>";
+			if(!this.rating) {
+				this.rating = "Info saknas";
+			}
+
+			m_this.elementOne[i].innerHTML = "<h2>"+ this.info.name +"</h2>";
+			this.ratings[i].innerHTML = "Betyg: " + this.rating;
+		}
 
 	};
 

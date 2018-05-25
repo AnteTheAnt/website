@@ -1,7 +1,6 @@
 {
 
-	"aktiviteter": "platser",
-	"namn": [{
+	"load": [{
 		"id": "42",
         "location": "Växjö",
         "name": "Inlåst - Real Life Room Escape Game",
@@ -554,7 +553,6 @@
         "address": "-",
         "website": "www.jonkoping.net/turism/objekt.asp?id=183",
         
-		//Öppet dygnet runt//
         "mon_open": "-",
 		"mon_close":"-",
 		"tue_open": "-",
@@ -584,7 +582,6 @@
         "address": "Bataljonsgatan 6 Jönköping",
         "website": "http://a6paintball.se/",
         
-		//står inga öppettider?//
         "mon_open": "-",
 		"mon_close":"-",
 		"tue_open": "-",
@@ -764,7 +761,6 @@
         "address": "Nannylundsgatan 23A Eksjö",
         "website": "https://www.activated.se/badhus/eksjo/nannylunds-badhus.html",
         
-		//står inga öppettider?//
         "mon_open": "-",
 		"mon_close":"-",
 		"tue_open": "-",
@@ -794,7 +790,6 @@
         "address": "Kaserngatan 30 Eksjö",
         "website": "http://www.eksjobowling.se/",
         
-		//öppet dygnet runt (stängt tis-ons)//
         "mon_open": "-",
 		"mon_close":"-",
 		"tue_open": "-",

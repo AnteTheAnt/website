@@ -3,12 +3,12 @@
         "load": [
 
         {
-        "location": "Lessebo",
         "id": "342",
         "name": "Vickis Bistro",
         "description": "En italiensk restaurang som serverar både lunch och middag. Välkommen!",
         "lat": "56.785717",
         "lng": "15.144133",
+        "location": "Lessebo",
         "website": "www.facebook.com/vickisbistro",
         "address": "Centralgatan 1 Hovmantorp",
         "telephone": "0478-102 46",

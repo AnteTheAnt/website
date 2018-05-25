@@ -36,17 +36,29 @@ function Webmap() {
 
 	
 	this.getPosData = function(posData) {
-		
-		for(var i=0; i<posData.payload.length; i++) {
-			
-			this.lat = posData.payload[i].lat;
-			this.lng = posData.payload[i].lng;
-			this.info = posData.payload[i];
+
+		if(posData.payload) {
+
+			for(var i=0; i<posData.payload.length; i++) {
+				
+				this.lat = posData.payload[i].lat;
+				this.lng = posData.payload[i].lng;
+				this.info = posData.payload[i];
+				
+				this.coords = {lat: parseFloat(this.lat), lng: parseFloat(this.lng)};
+				
+				this.addMarker(this.coords, this.info);
+
+			}
+		}else{
+
+			this.lat = posData.lat;
+			this.lng = posData.lng;
+			this.info = posData;
 			
 			this.coords = {lat: parseFloat(this.lat), lng: parseFloat(this.lng)};
-			
+				
 			this.addMarker(this.coords, this.info);
-
 		}
 		
 		console.log("Map and markers loaded successfully");

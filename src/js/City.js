@@ -24,11 +24,4 @@ function City() {
 
 	};
 
-
-
-	this.getSelectedCity = function() {
-
-		console.log(sessionStorage.getItem("activeCity"));
-	};
-
 }
