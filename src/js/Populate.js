@@ -65,7 +65,36 @@ function Populate(category) {
 			this.li.appendChild(this.objDiv);
 
 			this.img = document.createElement("img");
+
+		this.path;
+		this.path = window.location.pathname;
+		
+		if(this.path.includes("shopping")) {
+			
 			this.img.src = "../pics/beefdish.jpg";
+			
+		}else if(this.path.includes("rest")) {
+			
+			this.img.src = "../pics/beefdish.jpg";
+			
+		}else if(this.path.includes("sev")) {
+			
+			this.img.src = "../pics/beefdish.jpg";
+			
+		}else if(this.path.includes("aktiviteter")) {
+			
+			this.img.src = "../pics/artist.jpg";
+			
+		}else if(this.path.includes("boende")) {
+			
+			this.img.src = "../pics/beefdish.jpg";
+			
+		}else if(this.path.includes("klubb")) {
+			
+			this.img.src = "../pics/drinks.jpg";
+			
+		}
+
 			this.img.alt = "Mountain View";
 			this.objDiv.appendChild(this.img);
 

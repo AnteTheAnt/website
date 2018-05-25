@@ -6,8 +6,12 @@ body {
 	background-repeat: no-repeat;
 	background-color: #39476B;
 	}
+	
+/*kategorinamnen på kategorisidan + bakgrundsfärg */	
+	#namecategory {background-color:#;}
+	#namecategory h2 { color:#000000;}
 
-/* Startsidan med navigering och dropdown (för alla sidor) */
+/* Bilderna i headern, alla sidorna  */
 .header-title{
     font-family: 'Source Code Pro', monospace;
 	color: black;
@@ -57,25 +61,19 @@ body {
     background-image:url(../pics/culture.jpg);
 	}
     
-
 /* ändringar av logotypen*/
 #logotyp {padding-top:4%;}
 #logobjekt {padding-bottom:3%;}
         
-/*#logotyp img {background-color:#ffffff; opacity: 0.50; } */
-
 /* navigering på startsida*/
 #navstartsida {
 	padding-top: 2%;
 	text-align: center;
-	margin-left:80px;
 	}
-
 
 #navstartsida ul {
 	list-style: none;
-    font-family: 'Quicksand', sans-serif;
-	}
+    font-family: 'Quicksand', sans-serif;}
                   
 #navstartsida ul li {position: relative;}
            
@@ -84,14 +82,9 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-size: 14px;
-	font-family: 'Quicksand', sans-serif; 
-	}
+	font-family: 'Quicksand', sans-serif; }
 
-
-/*#navstartsida a:hover, nav a:active {color: #000000; font-size:50px}  */
-
-
-/* för att ändra iconerna i navigeringen*/
+/* för att ändra iconerna + text i navigeringen*/
 .nav-box {
     display:inline-block;
     width:12%;
@@ -113,9 +106,23 @@ body {
 .nav-box-icon i:hover {color: #434535;}
 .nav-box-icon i:visited {color: #434535;}
 
+/* för att flytta infon i main på objektsidan */
+
 #info-box-left {float: left; width: 33%;}
 
-#info-box-center {float: left; width: 33%;}
+#info-box-center {
+	/*float: left;
+	width: 33%;*/
+	position:absolute;
+	width:100%;
+	}
+	
+#info-box-center-content {
+	width:33%;
+	margin-left: 33%;
+}
+	
+#info-box-center img {max-width: 100%;}
 
 #info-box-right {float: right; width: 33%;}
 
@@ -129,6 +136,7 @@ body {
 .info-content-center {
 	padding-top: 5%;
 	padding-bottom: 15%;
+	width:5px;
 	}
 
 .info-content-right {
@@ -140,6 +148,10 @@ body {
 	padding-left: 16%;
 	padding-right: 16%;
 	text-align: left;
+}
+
+#infoShort {
+	padding-bottom:1%;
 }
 
 #infoOpen {
@@ -158,19 +170,7 @@ body {
 	padding-bottom: 1%;
 }
 
-/*.nav-box-text {
-    padding: 10px;
-    font-family: 'Quicksand', sans-serif;
-} */
-/*#navRest {display: block;}
-
-#navShop {display: block;}
-
-#navClub {display: block;}
-
-#navMusic {display: block;}
-
-#navCulture {display: block;}*/
+/*För att ändra saker kring dropmenyn välja stad + kategori när den responsiva designen börjar.*/
                            
 .dropbtn {
 	color: white;
@@ -200,6 +200,7 @@ body {
 	margin: 0px;
     position: relative; 
     display: inline-block;
+	
 }
 
 .dropdown-content {
@@ -247,20 +248,18 @@ body {
     background: #646464; 
 }
 
-
+/*för att ändra saker kring logga med mera på startsidan*/
 #startheader {
 	text-align: center;
-	padding-top: 130px;
+
 	font-family: 'Source Code Pro', monospace;
-	color: #FFF8F0;
+	color: #000;
     }
 			  
-/*#navMenu {display:inline;} */
-			  
-/* Kategorisidan + objektsidan, inklusive navigering */
-			  
-/*#wrapper {background-color: #EEEEEE;} */
 
+			  
+/* Kategorisidan + objektsidan, sorteringen, navigering, hjärtat i navigering */
+			  
 main {
 	background-color: #FFFFFF;
 	margin: auto;
@@ -268,19 +267,12 @@ main {
 	margin-top: 9px;
 	width: 98%;
 	} 
- 
 
-   
 #filtering {
 	padding-bottom: 10px;
 	padding-left:2%;
 	font-family: 'Quicksand', sans-serif;}
             
-#filter {
-	float:left;
-	padding-left:140px;
-	font-family: 'Quicksand', sans-serif;
-}
 					  
 #navCategories {
 	padding-bottom: 8px;
@@ -299,8 +291,6 @@ main {
 	font-family: 'Quicksand', sans-serif;
 	color:white;
 }
-
-
 
 #navCategories .icon { 
 	display: inline;
@@ -327,7 +317,7 @@ main {
 	visibility: hidden;
 	}
 
-/* Kategorisidan, karta och lista med objekt */
+/* Kategorisidan, karta och lista med alla objekt */
 		   
 #map {
 	background-color: #FFF;
@@ -342,15 +332,15 @@ main {
 	background-color: #ffffff;
 	overflow:  auto;
     white-space: nowrap;
-	height: 420px;
+	height: 370px;
 	font-family: 'Quicksand', sans-serif;
     margin-top: 0px;
-	margin-left: 90px; 
-	margin-right: 90px;
+	margin-left: 20px; 
+	margin-right: 20px;
 	}
     
 #scrollUl img {
-	height:200px;
+	height:150px;
 	width:230px;
 	}
 
@@ -361,9 +351,9 @@ main {
 
 .objektList {
 	width: 250px; 
-	height: 350px;
+	height: 300px;
     border: 1px solid #ddd;
-	background-color:#EDEDED; 
+	background-color:; 
 	margin: 10px;
 	padding: 10px;
 }
@@ -375,22 +365,12 @@ main {
 	font-size:16px;
 }
 		  
-.previous {/*background-color: #f1f1f1;*/
-	float: left;
-	margin-top: -380px;
-	color: black;
-	}
-			
-.next {/*background-color: #f1f1f1;*/
-	color: black;
-	float: right;
-	margin-top: -380px;
-}  	
-
 /* Objektsidan */
 
 #information {
-	border: 3px solid #ddd;}
+	border: 3px solid #ddd;
+	position: relative;
+	}
 
 #objekt {
 	font-family: 'Quicksand', sans-serif;
@@ -400,18 +380,20 @@ main {
 	}
 		
 #mapObjekt {
-	background-color: #d4d4d4;
-	margin-bottom: 10px;
-	padding: 10px;
 	display: none;
-	width:100px;
+	background-color: #d4d4d4;
+	margin-top: 110px;
+	padding: 10px;
+	margin-left:40px;
+	width:60%;
+	height:60%;
+	position:absolute;
+	z-index: 1;
 	}
 	  
-#objekt p {}
-
 #objekt h1 {
-	text-align: center; }
- 
+	text-align: center; 
+	}
 		
 /* Footer  */
 				   					   
@@ -466,26 +448,42 @@ footer {
 .savedObjekt h2 {
 	font-size: 15px;
 	}
-/*	
-.save {
-	float: right;
-	margin-right: 10%;
-	}
 
-.showmap {float: left;}
+/* Responsiv design */	
+@media screen and (max-width: 1000px) {
 
-.pictures {
-	
+/*scroll objektlistan*/
+	#scrollList {
+		height: 310px;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 0px;
+		margin-left: 20px; 
+		margin-right: 20px;
+   }
+ 
+ /* objektbilden*/   
+    #scrollUl img {
+		height:120px;
+		width:190px;
+		}
+    
+ /* listan med objekten*/   
+    .objektList {
+		width: 200px; 
+		height: 250px;
+		margin: 5px;
+		padding: 5px;
+		}
+   
+/* text i listan för objekten*/    
+    .objektList p {
+		font-size: 10px;
+		}
+
+    .objektList h2 {
+		font-size:14px;
+		}	
 }
-
-.description {float: left;}
-
-.ratings {float: right;}
-
-.open {float: left;}
-
-.contact {float: right;}
-*/
 
 /* Responsiv design */	
 @media screen and (max-width: 850px) {
@@ -495,30 +493,27 @@ footer {
 
 /*scroll objektlistan*/
 	#scrollList {
-		background-color: #FFFFFF;
-		height: 240px;
+		height: 260px;
 		font-family: 'Quicksand', sans-serif;
 		margin-top: 0px;
-		margin-left: 10px; 
-		margin-right: 10px;
+		margin-left: 20px; 
+		margin-right: 20px;
    }
  
  /* objektbilden*/   
     #scrollUl img {
 		height:100px;
-		width:135px;
+		width:140px;
 		}
     
  /* listan med objekten*/   
     .objektList {
 		width: 150px; 
 		height: 200px;
-		background-color: #EDEDED; 
 		margin: 5px;
 		padding: 5px;
 		}
-    
-    
+   
 /* text i listan för objekten*/    
     .objektList p {
 		font-size: 8px;
@@ -531,43 +526,33 @@ footer {
 
 @media screen and (max-width: 650px) {
 	
-	/*navigeringen*/
-	.nav-boxStart {
-	display:block;
-	margin-left:32%;
-	padding:10px;
-	}
-	 
 	/*popup spara*/ 
 	#popupObjekts h1 { 
 	font-size: 20px;
 	}
 	
-	#navHeart {
-	margin-left:90%;	
-	}
 }
 
-@media screen and (max-width: 670px) {
-	
-	.dropbtn {margin-left:0%;}
-	
-	/*sortering/filtrering*/
-	.sorting {font-size:8px;}
-    
+@media screen and (max-width: 750px) {
 	/*navigeringen*/
+
+	.dropbtn {margin-left:0%;}
+    
 	.nav-box {visibility: hidden;}
-   
+	
+	.nav-boxStart {visibility: hidden;}
+	
     #navMenu {visibility: visible;
 	display: inline;}
   
     .dropbtn2 {
 		font-size:50px;
+		
 		padding-left: 20px;
 		cursor: pointer;
 		border: none;
 		color:white;
-		background-color:#000;
+		background-color:transparent;
 		}
 	
     #navHeart {display: inline;
@@ -589,8 +574,8 @@ footer {
                    width:200px;}
 
 /* objektlistan*/
-    #scrollList {background-color: #FFFFFF;
-	height: 200px;
+    #scrollList {
+	height: 210px;
 	font-family: 'Quicksand', sans-serif;
     margin-top: 0px;
 	margin-left: 10px; 
@@ -598,12 +583,12 @@ footer {
    }
  
  /* objektbilden*/   
-    #scrollUl img {height:60px; width:80px; }
+    #scrollUl img {height:60px; width:90px; }
     
  /* listan med objekten*/   
-    .objektList {width: 90px; 
-	height: 140px;
-	background-color: #EDEDED; 
+    .objektList {width: 100px; 
+	height: 150px;
+
 	margin: 5px;
 	padding: 5px; }
     
@@ -611,4 +596,48 @@ footer {
     .objektList p {font-size: 6px;}
 
     .objektList h2 {font-size:6px;}
+	
+	#menuDropdown { 
+		width: 500%;
+		height: 250px;
+		margin-top:-125%;
+		margin-left:150%;
+		overflow:auto;
+	}
+	
+	#myDropdown {
+		width:200px;
+	}
+	
+	#info-box-center {
+		position: relative;
+	}
+	
+	#info-box-center-content {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	#info-box-left {width:50%;}
+	
+	#info-box-right {width:50%;}
+ }
+ 
+ @media screen and (max-width: 400px) {
+	
+	.dropbtn2 {
+		
+		padding-left: 0px;
+	
+		}
+	
+	#information {
+		padding:10px;
+		font-size:10px;
+	}
+	
+	#mapObjekt {
+		width:50%;
+		height:50%;
+	}
  }

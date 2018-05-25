@@ -169,6 +169,8 @@ Main = {
 
 	selectCity : function(event) {
 
+		console.log("pls1");
+
 		Main.city;
 
 		Main.city = new City();
@@ -179,6 +181,8 @@ Main = {
 
 		Main.city.init(Main.selected);
 
+		console.log("pls2");
+
 
 		Main.cityTitle;
 
@@ -188,9 +192,13 @@ Main = {
 
 		Main.cityTitle[0].innerHTML = sessionStorage.getItem("activeCity");
 
+		console.log("pls3");
+
 		Main.initData(); //Update the data on the page
 
 		console.log("main", Main.objs);
+
+		console.log("pls4");
 		
 	},
 
@@ -282,18 +290,26 @@ Main = {
 	*/
 
 	getActivityUrl : function() {
+
+		console.log("url1");
 		
 		Main.url;
 		Main.url = new Url("activity", Main.getActivityData);
 		Main.url.init();
+
+		console.log("url2");
 		
 	},
 	
 	getActivityData : function(url, jsonUrl) {
+
+		console.log("url3");
 		
 		Main.data;
 		Main.data = new Data();
 		Main.data.initFood(Main.data.foodDataDone, url, jsonUrl);
+
+		console.log("url4");
 		
 	},
 

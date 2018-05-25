@@ -1,0 +1,614 @@
+@charset "UTF-8";
+
+body {
+	background-image:url(../pics/applause1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #39476B;
+	}
+
+/* Startsidan med navigering och dropdown (för alla sidor) */
+.header-title{
+    font-family: 'Source Code Pro', monospace;
+	color: black;
+    font-size: 30px;
+    text-align: center;
+	}
+
+    
+#header-title-object { 
+	background-image:url(../pics/applause1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+
+#header-title-rest {
+    background-image:url(../pics/food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+
+#header-title-aktiviteter {
+    background-image:url(../pics/bowling.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+
+#header-title-shop {
+     background-image:url(../pics/shop.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+	}
+
+#header-title-club {
+    background-image:url(../pics/club.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+
+#header-title-hotel {
+    background-image:url(../pics/hotel.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	}
+
+
+#header-title-culture {
+    background-image:url(../pics/culture.jpg);
+	}
+    
+
+/* ändringar av logotypen*/
+#logotyp {padding-top:4%;}
+#logobjekt {padding-bottom:3%;}
+        
+/*#logotyp img {background-color:#ffffff; opacity: 0.50; } */
+
+/* navigering på startsida*/
+#navstartsida {
+	padding-top: 2%;
+	text-align: center;
+	margin-left:80px;
+	}
+
+
+#navstartsida ul {
+	list-style: none;
+    font-family: 'Quicksand', sans-serif;
+	}
+                  
+#navstartsida ul li {position: relative;}
+           
+#navstartsida a {
+	color: #FFF8F0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif; 
+	}
+
+
+/*#navstartsida a:hover, nav a:active {color: #000000; font-size:50px}  */
+
+
+/* för att ändra iconerna i navigeringen*/
+.nav-box {
+    display:inline-block;
+    width:12%;
+	text-align: center;
+	}
+	
+.nav-boxStart {
+    display:inline-block;
+    width:12%;
+	}    
+
+.nav-box-icon {
+	font-family: 'Quicksand', sans-serif; display: table-caption;
+    color: #d6d6d6; cursor: pointer; 
+    margin-bottom:0px;
+	}
+    
+.nav-box-icon i:active {color: #434535;}
+.nav-box-icon i:hover {color: #434535;}
+.nav-box-icon i:visited {color: #434535;}
+
+#info-box-left {float: left; width: 33%;}
+
+#info-box-center {float: left; width: 33%;}
+
+#info-box-right {float: right; width: 33%;}
+
+.clear {clear: both;}
+
+.info-content-left {
+	padding-top: 5%;
+	padding-bottom: 10%;
+	}
+
+.info-content-center {
+	padding-top: 5%;
+	padding-bottom: 15%;
+	}
+
+.info-content-right {
+	padding-top: 5%;
+	padding-bottom: 15%;
+	}
+	
+.info-content-right p {
+	padding-left: 16%;
+	padding-right: 16%;
+	text-align: left;
+}
+
+#infoOpen {
+	padding-bottom: 1%;
+}
+
+#infoRating {
+	padding-bottom: 1%;
+}
+	
+#infoSave {
+	padding-bottom: 1%;
+}
+	
+#infoMap {
+	padding-bottom: 1%;
+}
+
+/*.nav-box-text {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+} */
+/*#navRest {display: block;}
+
+#navShop {display: block;}
+
+#navClub {display: block;}
+
+#navMusic {display: block;}
+
+#navCulture {display: block;}*/
+                           
+.dropbtn {
+	color: white;
+    margin-bottom:2%;
+    background-color:#000;
+    opacity: 0.85;
+    font-size:20px;
+    border: none;
+    cursor: pointer; 
+   /* text-align: center; */
+    display: table-caption;
+    font-family: 'Quicksand', sans-serif;
+	}
+
+#myInput {
+	background-position: 14px 12px;
+    background-repeat: no-repeat; 
+    font-size: 15px;
+    padding: 10px 0px 10px 36px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+	}
+
+#myDropdown {}
+
+.dropdown {
+	margin: 0px;
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown-content {
+	margin-top:0px;
+    display: none;
+    position: absolute;
+    background-color: #65779F;
+	opacity: 0.95;
+	height: 500%;
+    overflow: auto;
+    
+    border: 1px solid #ddd;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+	}
+
+.dropdown-content a {
+    color: black;
+	font-size:15px;
+    padding: 12px 16px; 
+    text-decoration: none;
+    display: block;}
+
+.dropdown a:hover {
+	background-color: #ddd;
+	}
+
+.show {
+	display:block;
+	}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #838383; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #646464; 
+}
+
+
+#startheader {
+	text-align: center;
+	padding-top: 130px;
+	font-family: 'Source Code Pro', monospace;
+	color: #FFF8F0;
+    }
+			  
+/*#navMenu {display:inline;} */
+			  
+/* Kategorisidan + objektsidan, inklusive navigering */
+			  
+/*#wrapper {background-color: #EEEEEE;} */
+
+main {
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: 5px;
+	margin-top: 9px;
+	width: 98%;
+	} 
+ 
+
+   
+#filtering {
+	padding-bottom: 10px;
+	padding-left:2%;
+	font-family: 'Quicksand', sans-serif;}
+            
+#filter {
+	float:left;
+	padding-left:140px;
+	font-family: 'Quicksand', sans-serif;
+}
+					  
+#navCategories {
+	padding-bottom: 8px;
+	width:100%;
+	padding-top:12px;
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	margin: auto;
+	background-color: #000;
+	}
+
+#navCategories a {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+}
+
+
+
+#navCategories .icon { 
+	display: inline;
+}
+
+#navHeart {
+	position: absolute;
+	margin-left:87%;
+    font-size:20px;
+	cursor: pointer;
+	}
+
+#navHeart i {
+	position:absolute;
+	top:15px;
+	color: #F66;
+	}
+	
+.navbar {
+	display: none;
+	}
+    
+#navMenu {
+	visibility: hidden;
+	}
+
+/* Kategorisidan, karta och lista med objekt */
+		   
+#map {
+	background-color: #FFF;
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	height: 300px;
+	border: 3px solid #ddd;
+	} 
+						   
+#scrollList {
+	background-color: #ffffff;
+	overflow:  auto;
+    white-space: nowrap;
+	height: 420px;
+	font-family: 'Quicksand', sans-serif;
+    margin-top: 0px;
+	margin-left: 90px; 
+	margin-right: 90px;
+	}
+    
+#scrollUl img {
+	height:200px;
+	width:230px;
+	}
+
+	
+#scrollList ul li {
+	display: inline-block;
+} 	
+
+.objektList {
+	width: 250px; 
+	height: 350px;
+    border: 1px solid #ddd;
+	background-color:#EDEDED; 
+	margin: 10px;
+	padding: 10px;
+}
+
+.objektList p {
+	font-size: 12px;}
+
+.objektList h2 {
+	font-size:16px;
+}
+		  
+.previous {/*background-color: #f1f1f1;*/
+	float: left;
+	margin-top: -380px;
+	color: black;
+	}
+			
+.next {/*background-color: #f1f1f1;*/
+	color: black;
+	float: right;
+	margin-top: -380px;
+}  	
+
+/* Objektsidan */
+
+#information {
+	border: 3px solid #ddd;}
+
+#objekt {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 10px;
+	}
+		
+#mapObjekt {
+	background-color: #d4d4d4;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: none;
+	width:100px;
+	}
+	  
+#objekt p {}
+
+#objekt h1 {
+	text-align: center; }
+ 
+		
+/* Footer  */
+				   					   
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	margin-top:10px;
+	}	
+	
+/* Sparade objekt */	
+
+#myDIV {
+	display: none;
+	}
+
+#popupObjekts {
+	background-color: #FFF;
+	position: absolute;
+	opacity: 0.9;
+	z-index: 1;
+	width: 100%;
+	height: 50%;
+	padding: 10px; 
+	overflow: scroll;
+	float: right; 
+	font-family: 'Quicksand', sans-serif;
+}
+
+#popupObjekts ul li {
+	display: inline;
+	} 	
+
+#popupObjekts h1 {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	}	
+	
+.savedObjekt {
+	width: 90%; 
+	height: 20%;
+	background-color: #FFF; 
+	padding: 10px;
+	margin: 10px;
+	}	
+		
+.savedObjekt h2 {
+	font-size: 15px;
+	}
+/*	
+.save {
+	float: right;
+	margin-right: 10%;
+	}
+
+.showmap {float: left;}
+
+.pictures {
+	
+}
+
+.description {float: left;}
+
+.ratings {float: right;}
+
+.open {float: left;}
+
+.contact {float: right;}
+*/
+
+/* Responsiv design */	
+@media screen and (max-width: 850px) {
+
+    #navstartsida {text-align: center; }
+    #navstartsida a { text-align: center;}
+
+/*scroll objektlistan*/
+	#scrollList {
+		background-color: #FFFFFF;
+		height: 240px;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 0px;
+		margin-left: 10px; 
+		margin-right: 10px;
+   }
+ 
+ /* objektbilden*/   
+    #scrollUl img {
+		height:100px;
+		width:135px;
+		}
+    
+ /* listan med objekten*/   
+    .objektList {
+		width: 150px; 
+		height: 200px;
+		background-color: #EDEDED; 
+		margin: 5px;
+		padding: 5px;
+		}
+    
+    
+/* text i listan för objekten*/    
+    .objektList p {
+		font-size: 8px;
+		}
+
+    .objektList h2 {
+		font-size:10px;
+		}
+}
+
+@media screen and (max-width: 650px) {
+	
+	/*navigeringen*/
+	.nav-boxStart {
+	display:block;
+	margin-left:32%;
+	padding:10px;
+	}
+	 
+	/*popup spara*/ 
+	#popupObjekts h1 { 
+	font-size: 20px;
+	}
+	
+	#navHeart {
+	margin-left:90%;	
+	}
+}
+
+@media screen and (max-width: 670px) {
+	
+	.dropbtn {margin-left:0%;}
+	
+	/*sortering/filtrering*/
+	.sorting {font-size:8px;}
+    
+	/*navigeringen*/
+	.nav-box {visibility: hidden;}
+   
+    #navMenu {visibility: visible;
+	display: inline;}
+  
+    .dropbtn2 {
+		font-size:50px;
+		padding-left: 20px;
+		cursor: pointer;
+		border: none;
+		color:white;
+		background-color:#000;
+		}
+	
+    #navHeart {display: inline;
+	font-size:30px;
+	margin-left:80%;
+	padding:10px;}  
+	
+    .dropdown-content {
+		width:150px;
+		height:240px;
+		margin:0px;
+	}
+    
+	/*logga + bilder*/
+    #logotyp img { height:250px;
+                   width:200px;}
+                   
+    #startheader img { height:250px;
+                   width:200px;}
+
+/* objektlistan*/
+    #scrollList {background-color: #FFFFFF;
+	height: 200px;
+	font-family: 'Quicksand', sans-serif;
+    margin-top: 0px;
+	margin-left: 10px; 
+	margin-right: 10px;
+   }
+ 
+ /* objektbilden*/   
+    #scrollUl img {height:60px; width:80px; }
+    
+ /* listan med objekten*/   
+    .objektList {width: 90px; 
+	height: 140px;
+	background-color: #EDEDED; 
+	margin: 5px;
+	padding: 5px; }
+    
+/* text i listan för objekten*/    
+    .objektList p {font-size: 6px;}
+
+    .objektList h2 {font-size:6px;}
+ }

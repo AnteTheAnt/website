@@ -25,6 +25,7 @@ function Webmap() {
 
 		m_this.markers.push(marker);
 
+
 		this.infoContent = '<div class="infoWindow"> <h4>'+info.name+'</h4> <p>'+info.description+'</p> </div>';
 
 		var infoWindow = new google.maps.InfoWindow({
@@ -41,8 +42,6 @@ function Webmap() {
 
 	this.clearMarkers = function() {
 
-		console.log("clearing markers...")
-
 			if(m_this.markers>0) {
 
 				for (var i = 0; i < m_this.markers.length; i++) {
@@ -57,7 +56,7 @@ function Webmap() {
 	
 	this.getPosData = function(posData) {
 
-		this.clearMarkers();
+		//this.clearMarkers();
 
 		if(posData.payload) {
 

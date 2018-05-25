@@ -130,7 +130,7 @@ function Data() {
             "payload": Object.assign(obj1.payload, obj2)
         };
 
-        console.log(result);
+        console.log("resulterino", result);
 
         Main.populateWebsite(result);
     };

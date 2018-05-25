@@ -63,6 +63,8 @@ function Url(controller, callback) {
 
     this.getActiveCity = function(cities) {
 
+        console.log("localtestugsfasg", sessionStorage.getItem("activeCity"));
+
         for (var i = 0; i < cities.city.length; i++) {
 
             if (cities.city[i].name == sessionStorage.getItem("activeCity")) {

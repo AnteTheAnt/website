@@ -21,90 +21,104 @@
 	
 </head>
 
-<div id="bodypic">
+
+
+
 <body>
+
 <header>
+	
+	<!-- Header med logga och bild startsida -->
+		<div id="startheader" class="header-title">
+	<div id="logotyp">	<img src="../pics/logo5.png" alt="logotyp"> </div>
+		
 
  <!-- Dropdown med välj stad -->
-<div class="dropdown" style="margin-left:46%;">
+<div class="dropdown" style="margin-bottom:2%;">
 <u><button onclick="myFunction()" class="dropbtn">VÄLJ STAD &#9660;</button></u>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Sök..." id="myInput" onkeyup="filterFunction()">
-    <a href="#alvesta">Alvesta</a>
-	<a href="#växjö">Växjö</a>
-	<a href="#ljungby">Ljungby</a>
-	<a href="#älmhult">Älmhult</a>
-	<a href="#emmaboda">Emmaboda</a>
-	<a href="#oskarshamn">Oskarshamn</a>
-	<a href="#västervik">Västervik</a>
-    <a href="#bankeryd">Bankeryd</a>
     <a href="#borgholm">Borgholm</a>
+    <a href="#böda">Böda</a>
     <a href="#eksjö">Eksjö</a>
+    <a href="#emmaboda">Emmaboda</a>
     <a href="#gislaved">Gislaved</a>
+    <a href="#jönköping">Jönköping</a>
     <a href="#kalmar">Kalmar</a>
+    <a href="#lessebo">Lessebo</a>
+	<a href="#ljungby">Ljungby</a>
+    <a href="#nässjö">Nässjö</a>
+    <a href="#oskarshamn">Oskarshamn</a>
+    <a href="#sävsjö">Sävsjö</a>
+    <a href="#tingsryd">Tingsryd</a>
+    <a href="#tranås">Tranås</a>
+    <a href="#vetlanda">Vetlanda</a>
+    <a href="#värnamo">Värnamo</a>
+	<a href="#västervik">Västervik</a>
+    <a href="#växjö">Växjö</a>
+	<a href="#älmhult">Älmhult</a>
   </div>
 </div>
+</div>
 
-<!-- Header med titel startsida -->
-		<div id="startheader" style="margin-top:-80px;">
-		<img src="../pics/logo5.png" alt="logotyp">
-		</div>
 	</header>
+ <nav>
+		 <hr>   
+  		<!-- Dropdown meny för reponsiv design -->
+
+<div id="navMenu" class="nav-box">
+<div class="dropdown">
+<button onclick="menuFunction()" class="dropbtn2">&#9776;</button>
+  <div id="menuDropdown" class="dropdown-content">
+    <a href="boende.html">BOENDE</a>
+	<a href="restauranger.html">RESTAURANG</a>	
+    <a href="shopping.html">SHOPPING</a>
+	<a href="nattklubb.html">NATTKLUBB</a>
+	<a href="aktiviteter.html">AKTIVITETER</a>
+	<a href="sevärdhet.html">SEVÄRDHET</a>
+</div>
+    </div>
+</div>
     
-  
-    
-	<!-- Navigering på startsida med kategorier -->
-	<nav>
-		 <hr>
+	<!-- kategorier navigering -->
+	
 		<div id="navstartsida">
 		
 					<div id="navShop" class="nav-boxStart">
 				<div class="nav-box-icon">
 				<a href="boende.html">BOENDE<i class="fa fa-home" style="font-size:30px"></i></a>
 				</div>
-	<!--			<div class="nav-box-text">
-				<a href="boende.html"></a>
-				</div> -->
+
 			</div>
 			<div id="navRest" class="nav-boxStart">
 					<div class="nav-box-icon">
 						<a href="restauranger.html">RESTAURANG<i class="fa fa-cutlery" style="font-size:30px"></i></a>
 					</div>
-	<!--		<div class="nav-box-text">
-						<a href="restauranger.html">RESTAURANG</a>	
-					</div> -->
+
 				</div>
 				<div id="navShop" class="nav-boxStart">
 					<div class="nav-box-icon">
 					<a href="shopping.html">SHOPPING<i class="fa fa-dollar" style="font-size:30px"></i></a>
 					</div>
-<!--					<div class="nav-box-text">
-					<a href="shopping.html">SHOPPING</a>
-					</div> -->
+
 				</div>
 				<div id="navClub" class="nav-boxStart">
 					<div class="nav-box-icon">
 					<a href="nattklubb.html">NATTKLUBB<i class="fa fa-glass" style="font-size:30px"></i></a>
 					</div>
-	<!--				<div class="nav-box-text">
-					<a href="nattklubb.html">NATTKLUBB</a>
-					</div>  -->
+
 				</div>
 				<div id="navMusic" class="nav-boxStart">
 					<div class="nav-box-icon">
 					<a href="aktiviteter.html">AKTIVITETER<i class="fa fa-gamepad" style="font-size:30px"></i></a>
 					</div>
-<!--					<div class="nav-box-text">
-					<a href="aktiviteter.html">AKTIVITETER</a>
-					</div> -->
+
 				</div>
 				<div id="navCulture" class="nav-boxStart">
 					<div class="nav-box-icon">
 					<a href="sevärdhet.html">SEVÄRDHET<i class="fa fa-binoculars" style="font-size:30px"></i></a>
 					</div>
-<!--					<div class="nav-box-text">
-					<a href="sevärdhet.html">SEVÄRDHET</a>
-					</div> -->
+
 				</div>
                 
 
